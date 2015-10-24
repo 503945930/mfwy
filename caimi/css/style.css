@@ -1,0 +1,54 @@
+
+body{ background:#eee}
+/********* 头部样式  *******/
+.modal-header{ min-width:1180px;width:100%;height:377px;background:#393939;border-bottom:3px solid #e8390e;padding: 0}
+.modal-header .head-center{width:1180px;height:407px;margin:0 auto;color:#fff;font-size:12px;position: relative}
+.modal-header .head-center .center-left{float: left;margin-top:5px;}
+.modal-header .head-center .center-right{float:right;margin-top:5px}
+.modal-header .head-center a{margin-right:18px;color:#fff;text-decoration: none}
+.modal-header .head-center .sy{display:inline-block;width:24px;height:14px;background:url("../images/index.png") bottom left no-repeat }
+.modal-header .head-center .center-left .sel{color:#e8390e}
+.modal-header .head-center .cmssk{width:830px;height:60px;margin: 0 auto;border:3px solid #e8390e;
+   border-radius: 30px;position: absolute;  bottom: 0;padding:15px 25px;font-size:24px;}
+.modal-header .head-center .center-center{width:352px;height:170px;left:50%;margin-left:-176px;position: absolute;bottom:95px;
+   background:url("../images/dacaimi.png") left top no-repeat}
+.modal-header .head-center .center-center .jj{margin-top:150px;font-size: 24px;color: #777;}
+.modal-header .head-center  button{width:150px;height:60px;position:absolute;background:#e8390e;border:3px solid #e8390e;border-radius: 30px;font-size:24px;}
+.modal-header .head-center .caimi-btn1{bottom:0;right:173px;}
+.modal-header .head-center .caimi-btn2{bottom:0;right:10px;}
+
+/*******采蜜分类样式***/
+
+.classify{width:100%;min-width:1180px;height:205px;background:#fff;}
+.classify .hr{width:100%;min-width: 1180px;padding-top: 58px;}
+.classify .hr .hr-left{float: left;width:45%;}
+.classify .hr .hr-right{float: right;width:45%;}
+.classify p{width:10%;float:left;color:#777;font-size: 16px;margin-top: 8px;}
+.classify .btns{width:1180px;height:118px;padding:18px 28px 50px;color:#eee;margin: 0 auto;font-size: 18px;}
+.classify button{width:120px;height:50px; border-radius: 25px;border: none;margin:0 18px}
+.classify .btns .Design-Color{background:#22cd38}
+.classify .btns .page-gauge{background:#00a0ea}
+.classify .btns .Propaganda-posters{background:#f39801}
+.classify .btns .Creative-packaging{background:#e5007f}
+.classify .btns .CD-cover{background:#956c33}
+.classify .btns .food-ad{background:#81c368}
+.classify .btns .Holiday-pic{background:#910683}
+
+/***********container样式*********/
+
+.container{width: 1180px;margin:15px auto ;padding:10px;background:#fff;}
+   .container .dropdown-menu{border: 1px solid #fe7a4d}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
