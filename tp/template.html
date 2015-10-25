@@ -6,8 +6,9 @@
     <title>模板页面</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="renderer" content="webkit">
-    <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css" />
+     <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css" />  
     <link rel="stylesheet" href="../bower_components/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="../common/css/top.css" />
     <link rel="stylesheet" href="../common/css/common.css" />
     <link rel="stylesheet" href="css/template.css" />
     <!--[if lt IE 9]>
@@ -17,39 +18,34 @@
 </head>
 
 <body>
-    <div class="header">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-1">
-                    <div class="dropdown">
-                        <button class="btn btn-transparent" id="dropdownCity" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                            <span class="fa fa-map-marker"></span> 上海站
-                            <span class="caret"></span>
-                        </button>
-                        <ul class="dropdown-menu" aria-labelledby="dropdownCity">
-                            <li><a href="#">北京</a></li>
-                            <li><a href="#">重庆</a></li>
-                            <li><a href="#">广州</a></li>
-                            <li><a href="#">兰州</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-1 welcome">
-
-                   <button class="btn btn-transparent">
-                          <i class="fa fa-home fa-4"></i>    欢迎页
-                    </button>
-                </div>
-                <div class="col-md-4">
-                    44
-                </div>
-            </div>
-        </div>
+    <div class="header include" data-include="top">
+       
     </div>
+
+    <div class="content" style="width:100%;height:900px"> 
+        
+    </div>
+
+     <div class="footer include"  data-include="footer">
+        
+    </div>
+
 
      
 </body>
 <script src="../lib/jquery-1.9.1/jquery-1.9.1.min.js" type="text/javascript" charset="utf-8"></script>
 <script src="../bower_components/bootstrap/dist/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+
+<script type="text/javascript">
+$(function(){
+    var includes = $('.include');
+    $.each(includes, function(){
+      var file = '../common/public/' + $(this).data('include') + '.tpl.html';
+      $(this).load(file);
+    });
+});
+ 
+
+</script>
 
 </html>

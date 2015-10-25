@@ -4,6 +4,11 @@
 favio.ico
 
 index.html
+
+
+common
+ public
+   top.tpl.html; ---公共top 页面  --已完成
 		
 
 bower_components/
@@ -33,7 +38,7 @@ cm/     ---采蜜
   js/commmon.js
   css/common.css
   public/ html	
-  caimi.html	
+  caimi.html	 --已完成
 
 
 
@@ -49,7 +54,7 @@ tp/     ---模板
   js/commmon.js
   css/common.css
   public/ html	
-  template.html
+  template.html 
 
 
 wk/     ---威客

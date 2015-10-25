@@ -1,0 +1,46 @@
+@charset "utf-8";
+
+html, form, ul, ol, li, dl, dt, dd, img, input, div, p {
+	margin:0px;
+	padding:0px;
+	border:0px;
+}
+ul, dl, li {
+	list-style-type:none;
+}
+.clear {
+	clear:both;
+}
+dt{
+	font-weight: normal;
+}
+
+.top{ background-color:#fff; height:39px; line-height:39px; border-bottom:#dddddd 1px solid;}
+.topa{ float:left; color:#dbceac}
+.topb{ color:#666; float:right; text-align:right;}
+.topb a{ padding:0 8px; color:#666}
+.topb a:hover{ padding:0 8px; color:#ff4100}
+.topk{ width:1180px; margin:0 auto;}
+.logo{ width:1180px; margin:0 auto; height:108px;}
+.logoa{ padding-top:20px; float:left;}
+
+.smerweima{width:110px;height:110px;display:none;right:54px; position:absolute;top:108px;}
+.shanghaizhan{ float:left; width:520px;}
+.shanghaizhan li{ float:left; margin-right:20px;}
+.shanghaizhan a{ color:#323232}
+.shanghaizhan a:hover{ color:#ff4100}
+.haszhan a{ display:block; background:url(/common/images/indextopa_12.jpg) left center no-repeat; padding-left:24px; padding-right:18px;}
+.haszhan a:hover{ display:block; background:url(/common/images/indextopa_03.jpg) left center no-repeat; padding-left:24px;padding-right:18px;}
+.haszhana a{ display:block; background:url(/common/images/indextop_17.jpg) left center no-repeat; padding-left:29px;}
+.haszhana a:hover{ display:block; background:url(/common/images/indextop_07.jpg) left center no-repeat; padding-left:29px;}
+.haszhanb a{ display:block; background:url(/common/images/indextop_18.jpg) left center no-repeat; padding-left:24px;}
+.haszhanb a:hover{ display:block; background:url(/common/images/indextop_09.jpg) left center no-repeat; padding-left:24px;}
+
+.topyb{ float:right; width:300px}
+.topzb dl{ float:right; width:78px;}
+.topzb dt{ width:45px; padding-right:12px; text-align:right; float:left;line-height: 39px}
+.topzb dd{ float:left; padding-top:7px; padding-left:2px;} 
+.topzb{ float:right; width:160px;}
+.topzb a{ padding:0px;}
+.topzb a:hover{ padding:0px;}
+
