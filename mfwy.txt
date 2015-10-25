@@ -4,11 +4,7 @@
 favio.ico
 
 index.html
-index/
-  images/
-   js/commmon.js
-  css/common.css
-  public/ html  		
+		
 
 bower_components/
 lib/
@@ -16,6 +12,11 @@ common/
   images/
   js/	
   css/
+
+index/    ---首页
+  images/
+  js/commmon.js
+  css/common.css
 
 
 persion/     ---个人中心
