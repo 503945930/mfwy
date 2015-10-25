@@ -1,6 +1,4 @@
 ﻿
-body{ background:#eee}
-input,button,select,textarea{outline:none;}
 /********* 头部样式  *******/
 .modal-header{ min-width:1180px;width:100%;height:377px;background:#393939;border-bottom:3px solid #e8390e;padding: 0}
 .modal-header .head-center{width:1180px;height:407px;margin:0 auto;color:#fff;font-size:12px;position: relative}
