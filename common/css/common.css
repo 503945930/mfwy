@@ -1,6 +1,138 @@
 
 input,button,select,textarea{outline:none;}
-.btn-transparent{
-	background: transparent;
-	border:transparent;
+.btn-transparent {
+    background: transparent;
+    border: transparent;
 }
+/* CSS Document */
+
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+>>>>>>> origin/master
+}
+
+body {
+    font-family: Arial;
+    font-size: 12px;
+    color: #333;
+    text-align: left;
+    line-height: 22px;
+    min-width: 1180px;
+    background-color: #FFF;
+    padding: 0;
+    margin: 0
+}
+
+form,
+img,
+ul,
+li,
+p,
+dl,
+dt,
+dd,
+span,
+p {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-size: 12px;
+    font-weight: 100;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+form,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+img,
+input,
+div,
+p {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+ul,
+dl,
+li {
+    list-style-type: none;
+}
+
+.clear {
+    clear: both;
+}
+
+
+/*鍏敤閾炬帴鏍峰紡*/
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #000;
+}
+
+input,
+button,
+select,
+textarea {
+    outline: none
+}
+
+.btn-transparent {
+    background: transparent;
+    border: transparent;
+}
+
+.fa-6 {
+    font-size: 20em
+}
+
+.fa-5 {
+    font-size: 12em
+}
+
+.fa-4 {
+    font-size: 7em
+}
+
+.fa-3 {
+    font-size: 4em
+}
+
+.fa-2 {
+    font-size: 2em
+}
+
+.fa-1-5 {
+    font-size: 1.5em
+}
+
+.padding-left-0 {
+    padding-left: 0px;
+}
+
+
+

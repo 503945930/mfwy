@@ -1,9 +1,14 @@
-ï»¿
+?
 
-//å‰ç«¯ç»“æ„
+//Ç°¶Ë½á¹¹
 favio.ico
 
 index.html
+
+
+common
+ public
+   top.tpl.html; ---¹«¹²top Ò³Ãæ  --ÒÑÍê³É
 		
 
 bower_components/
@@ -13,13 +18,13 @@ common/
   js/	
   css/
 
-index/    ---é¦–é¡µ
+index/    ---Ê×Ò³
   images/
   js/commmon.js
   css/common.css
 
 
-persion/     ---ä¸ªäººä¸­å¿ƒ
+persion/     ---¸öÈËÖĞĞÄ
   images/
   js/commmon.js
   css/common.css
@@ -28,31 +33,37 @@ persion/     ---ä¸ªäººä¸­å¿ƒ
 
 
 
-cm/     ---é‡‡èœœ
+cm/     ---²ÉÃÛ
   images/
   js/commmon.js
   css/common.css
   public/ html	
-  caimi.html	
+  caimi.html	 --ÒÑÍê³É XJ
 
 
 
-dn/     ---é‡‡èœœ
+dn/     ---²ÉÃÛ
   images/
   js/commmon.js
   css/common.css
   design.html	
   
 
-tp/     ---æ¨¡æ¿
+tp/     ---Ä£°å
   images/
   js/commmon.js
   css/common.css
   public/ html	
-  template.html
+  template.html 
 
+zx/    ---ÔÚÏßÉè¼Æ
+images/
+js/common.js
+css/commom.css
+public/html
+online.html
 
-wk/     ---å¨å®¢
+wk/     ---Íş¿Í
   images/
   js/commmon.js
   css/common.css
@@ -61,7 +72,7 @@ wk/     ---å¨å®¢
 
 
 
-mt/     ---ç´ æ
+mt/     ---ËØ²Ä
   images/
   js/commmon.js
   css/common.css
@@ -70,7 +81,7 @@ mt/     ---ç´ æ
 
 
 
-mx/     --èœœäº«
+mx/     --ÃÛÏí
   images/
   js/commmon.js
   css/common.css
@@ -87,16 +98,16 @@ gulpfile.js
 
 
 
-css ç±»å‘½åæ–¹å¼  
+css ÀàÃüÃû·½Ê½  
 
-å‘½å è‹±è¯­è¯­ä¹‰  å¤šä¸ªå•è¯ é©¼å³°å‘½åï¼ˆç¬¬ä¸€ä¸ªå°å†™ï¼Œåé¢å¤§å†™ï¼‰    
+ÃüÃû Ó¢ÓïÓïÒå  ¶à¸öµ¥´Ê ÍÕ·åÃüÃû£¨µÚÒ»¸öĞ¡Ğ´£¬ºóÃæ´óĞ´£©    
  
 styly  .header  .thumbnail{}
 
-æ³¨é‡Š header start
+×¢ÊÍ header start
 header
   thumbnail
-æ³¨é‡Š header end
+×¢ÊÍ header end
 
 
 container
@@ -108,8 +119,8 @@ footer
 js  jquery,knockoutjs  
 
 
-//æ³¨é‡Š
+//×¢ÊÍ
 function a(){
 }
 
-æ”¾åœ¨bodyåé¢ï¼Œæ³¨æ„é¡ºåº
+·ÅÔÚbodyºóÃæ£¬×¢ÒâË³Ğò

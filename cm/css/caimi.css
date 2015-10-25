@@ -9,7 +9,7 @@ hr{margin:10px 0 5px;}
 .modal-header .head-center .sy{display:inline-block;width:24px;height:14px;background:url("../images/index.png") bottom left no-repeat }
 .modal-header .head-center .center-left .sel{color:#e8390e}
 .modal-header .head-center .cmssk{width:830px;height:60px;margin: 0 auto;border:3px solid #e8390e;
-   border-radius: 30px;position: absolute;  bottom: 0;padding:15px 25px;font-size:24px;}
+   border-radius: 30px;position: absolute;  bottom: 0;padding:15px 25px;font-size:24px;color:#111;}
 .modal-header .head-center .center-center{width:352px;height:170px;left:50%;margin-left:-176px;position: absolute;bottom:95px;
    background:url("../images/dacaimi.png") left top no-repeat}
 .modal-header .head-center .center-center .jj{margin-top:150px;font-size: 24px;color: #777;}
