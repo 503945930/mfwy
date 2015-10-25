@@ -10,6 +10,7 @@ select, input,label,button{ vertical-align:middle; }
   .head-foot .hot span{display: inline;float: left}
   .head-foot .hot .hot-list{height:18px;display: inline}
   .head-foot .hot .hot-list li{float:left;margin:0 10px;}
-  .head-foot .hot .hot-list li a:hover{color:}
+  .head-foot .hot .hot-list li a:hover{color:#ff4100;}
+div #weizhi{width:1180px;height:32px;margin:0 auto:}
 
 
