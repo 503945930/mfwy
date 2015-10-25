@@ -18,12 +18,63 @@ common/
   css/
 
 
-persion/
+persion/     ---个人中心
   images/
   js/commmon.js
   css/common.css
   public/ html	
   persion.html	
+
+
+
+cm/     ---采蜜
+  images/
+  js/commmon.js
+  css/common.css
+  public/ html	
+  caimi.html	
+
+
+cm/     ---采蜜
+  images/
+  js/commmon.js
+  css/common.css
+  public/ html	
+  caimi.html
+
+tp/     ---模板
+  images/
+  js/commmon.js
+  css/common.css
+  public/ html	
+  template.html
+
+
+wk/     ---采蜜
+  images/
+  js/commmon.js
+  css/common.css
+  public/ html	
+  witkey.html
+
+
+
+mt/     ---素材
+  images/
+  js/commmon.js
+  css/common.css
+  public/ html	
+  material.html
+
+
+
+mx/     --蜜享
+  images/
+  js/commmon.js
+  css/common.css
+  public/ html	
+  mixiang.html
+
 
 
 
