@@ -10,10 +10,14 @@
 }
 .quanguobaoowege dl {
   float: left;
+  width: 250px;
+  margin-left: 50px
+}
+.quanguobaoowege dl:first-child{
+ margin-left: 20px;
 }
 .quanguobaoowege dd {
   float: left;
-  padding-left: 28px;
 }
 .quanguobaoowege dt {
   float: left;
