@@ -1,15 +1,15 @@
-.naquiawneigeg {
+.footer .naquiawneigeg {
   text-align: center;
   font-size: 14px;
   line-height: 30px;
   padding: 20px 0;
   color: #696969;
 }
-.naquiawneigeg a {
+.footer .naquiawneigeg a {
   color: #696969;
   padding: 0 5px;
 }
-.naquiawneigeg a:hover {
+.footer .naquiawneigeg a:hover {
   color: #333;
   text-decoration: underline;
 }

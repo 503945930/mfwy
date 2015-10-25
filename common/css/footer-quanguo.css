@@ -1,25 +1,25 @@
-.quanguobaooweg {
+.footer .quanguobaooweg {
   background-color: #f9f9f9;
   border-top: #dddddd 1px solid;
   margin-top: 26px;
 }
-.quanguobaoowege {
+.footer .quanguobaoowege {
   width: 1180px;
   margin: 0 auto;
   padding: 34px 0;
 }
-.quanguobaoowege dl {
+.footer .quanguobaoowege dl {
   float: left;
   width: 250px;
   margin-left: 50px
 }
-.quanguobaoowege dl:first-child{
+.footer .quanguobaoowege dl:first-child{
  margin-left: 20px;
 }
-.quanguobaoowege dd {
+.footer .quanguobaoowege dd {
   float: left;
 }
-.quanguobaoowege dt {
+.footer .quanguobaoowege dt {
   float: left;
   width: 178px;
   line-height: 66px;
