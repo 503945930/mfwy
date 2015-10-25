@@ -1,4 +1,5 @@
-﻿
+﻿body{ background:#eee}
+hr{margin:10px 0 5px;}
 /********* 头部样式  *******/
 .modal-header{ min-width:1180px;width:100%;height:377px;background:#393939;border-bottom:3px solid #e8390e;padding: 0}
 .modal-header .head-center{width:1180px;height:407px;margin:0 auto;color:#fff;font-size:12px;position: relative}
@@ -8,7 +9,7 @@
 .modal-header .head-center .sy{display:inline-block;width:24px;height:14px;background:url("../images/index.png") bottom left no-repeat }
 .modal-header .head-center .center-left .sel{color:#e8390e}
 .modal-header .head-center .cmssk{width:830px;height:60px;margin: 0 auto;border:3px solid #e8390e;
-   border-radius: 30px;position: absolute;  bottom: 0;padding:15px 25px;font-size:24px;}
+   border-radius: 30px;position: absolute;  bottom: 0;padding:15px 25px;font-size:24px;color:#111;}
 .modal-header .head-center .center-center{width:352px;height:170px;left:50%;margin-left:-176px;position: absolute;bottom:95px;
    background:url("../images/dacaimi.png") left top no-repeat}
 .modal-header .head-center .center-center .jj{margin-top:150px;font-size: 24px;color: #777;}
@@ -44,17 +45,29 @@
    .container .Screening{float:right;width:95px;height:42px;background:#e8390e;color:#fff;}
 
 
-.Exhibition{margin: 15px auto;padding-top:10px;min-width: 980px;max-width: 1180px;background: #fff;}
+.Exhibition{margin: 15px auto;padding-top:10px;width: 1180px;background: #fff;}
     .Exhibition .img{width:100%;height:179px;background:url("../images/head.png") no-repeat center;
        background-size: 100% 179px;position: relative;}
     .Exhibition .btn-caimi{position: absolute;top:9px;left:8px;width:41px;height:41px;padding:0;border: none;}
     .Exhibition .btn-love{position: absolute;top:9px;right:8px;width:41px;height:41px;padding:0;border: none;background:#ff4100;border-radius: 5px;color:white}
+    .Exhibition .info{width:100%;margin-top:20px;}
+    .Exhibition .info .Studio-head{float:left;}
+    .Exhibition .info .Studio-name{float:left;font-weight: 600;margin-top:5px;}
+    .Exhibition .info .label{background:#e8390e;padding:1px;}
+    .Exhibition .info .Grade{ float:right;padding:2px 5px;font-weight: normal;font-size:14px;margin-top:8px;}
+    .Exhibition .info .name{color:#aaa;font-size:12px;}
+    .Exhibition .info .pic-name{color:#000;}
+    .Exhibition .dianzan{color:#aaa;}
+    .Exhibition .caiji{line-height: 25px;}
 
-
-
-
-
-
+.hengtiao{width:100%;height:107px;min-width:1180px;border-bottom:3px solid #e8390e;background: #393939;position: fixed;
+    top: 0;display: none;}
+  .hengtiao .caimi-shousuo{width:1180px;height:107px;margin:0 auto;padding:26px;position: relative}
+  .hengtiao .caimi-shousuo .cmssk{width:638px;height:60px;margin: 0 auto;border:3px solid #e8390e;
+    border-radius: 30px;position: absolute;padding:15px 25px;font-size:24px;right:280px;color:#000}
+  .hengtiao .caimi-shousuo  button{color:#fff;width:150px;height:60px;position:absolute;background:#e8390e;border:3px solid #e8390e;border-radius: 30px;font-size:24px;}
+  .hengtiao .caimi-shousuo .caimi-btn1{right:178px;}
+  .hengtiao .caimi-shousuo .caimi-btn2{right:10px;}
 
 
 

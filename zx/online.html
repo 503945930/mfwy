@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>在线设计</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../common/css/common.css"/>
+    <link rel="stylesheet" href="css/online.css" />
+    <link rel="stylesheet" href="../common/css/top.css" />
+    <link rel="stylesheet" href="../common/css/logo.css" />
+    <link rel="stylesheet" href="../common/css/footer-quanguo.css" />
+    <link rel="stylesheet" href="../common/css/footer-nav.css" />
+    <link rel="stylesheet" href="../common/css/footer-cr.css" />
+    <link rel="stylesheet" href="../common/css/common.css" />
+    <link rel="stylesheet" href="../tp/css/template.css" />
+    <link rel="stylesheet" href="../bower_components/font-awesome/css/font-awesome.css"/>
+
+    <!--[if lt IE 9]>
+    <script src="../lib/html5shiv/html5shiv.js"></script>
+    <script src="../lib/respond-1.4.2/respond.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+<div class="header ">
+    <div class="include" data-include="top"></div>
+    <div class="include" data-include="logo"></div>
+</div>
+<div class="head-foot">
+    <div class="search">
+        <input class="ssk" type="text" placeholder="输入你想要找的设计模板"/>
+        <button class="sousuo" type="button" ><span class="fa fa-search fa-3x" ></span></button>
+    </div>
+    <div class="hot">
+           <span style="color:#fb4c09">热门搜索:</span>
+        <ul class="hot-list">
+            <li><a href="">名片</a></li>
+            <li><a href="">会员卡</a></li>
+        </ul>
+    </div>
+</div>
+<div class="footer">
+    <div class="include" data-include='footer-quanguo'></div>
+    <div class="include" data-include='footer-nav'></div>
+    <div class="include" data-include='footer-cr'></div>
+</div>
+</body>
+<script src="../lib/jquery-1.9.1/jquery-1.9.1.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="../bower_components/bootstrap/dist/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+    $(function() {
+        var includes = $('.include');
+        $.each(includes, function() {
+            var file = '../common/public/' + $(this).data('include') + '.tpl.html';
+            $(this).load(file);
+        });
+    });
+</script>
+</html>
