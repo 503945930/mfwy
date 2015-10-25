@@ -1,6 +1,6 @@
+ï»¿
 
-
-//Ç°¶Ë½á¹¹
+//å‰ç«¯ç»“æ„
 favio.ico
 
 index.html
@@ -13,13 +13,13 @@ common/
   js/	
   css/
 
-index/    ---Ê×Ò³
+index/    ---é¦–é¡µ
   images/
   js/commmon.js
   css/common.css
 
 
-persion/     ---¸öÈËÖĞĞÄ
+persion/     ---ä¸ªäººä¸­å¿ƒ
   images/
   js/commmon.js
   css/common.css
@@ -28,7 +28,7 @@ persion/     ---¸öÈËÖĞĞÄ
 
 
 
-cm/     ---²ÉÃÛ
+cm/     ---é‡‡èœœ
   images/
   js/commmon.js
   css/common.css
@@ -37,14 +37,14 @@ cm/     ---²ÉÃÛ
 
 
 
-dn/     ---ÔÚÏßÉè¼Æ
+dn/     ---é‡‡èœœ
   images/
   js/commmon.js
   css/common.css
   design.html	
   
 
-tp/     ---Ä£°å
+tp/     ---æ¨¡æ¿
   images/
   js/commmon.js
   css/common.css
@@ -52,7 +52,7 @@ tp/     ---Ä£°å
   template.html
 
 
-wk/     ---Íş¿Í
+wk/     ---å¨å®¢
   images/
   js/commmon.js
   css/common.css
@@ -61,7 +61,7 @@ wk/     ---Íş¿Í
 
 
 
-mt/     ---ËØ²Ä
+mt/     ---ç´ æ
   images/
   js/commmon.js
   css/common.css
@@ -70,7 +70,7 @@ mt/     ---ËØ²Ä
 
 
 
-mx/     --ÃÛÏí
+mx/     --èœœäº«
   images/
   js/commmon.js
   css/common.css
@@ -87,16 +87,16 @@ gulpfile.js
 
 
 
-css ÀàÃüÃû·½Ê½  
+css ç±»å‘½åæ–¹å¼  
 
-ÃüÃû Ó¢ÓïÓïÒå  ¶à¸öµ¥´Ê ÍÕ·åÃüÃû£¨µÚÒ»¸öĞ¡Ğ´£¬ºóÃæ´óĞ´£©    
+å‘½å è‹±è¯­è¯­ä¹‰  å¤šä¸ªå•è¯ é©¼å³°å‘½åï¼ˆç¬¬ä¸€ä¸ªå°å†™ï¼Œåé¢å¤§å†™ï¼‰    
  
 styly  .header  .thumbnail{}
 
-×¢ÊÍ header start
+æ³¨é‡Š header start
 header
   thumbnail
-×¢ÊÍ header end
+æ³¨é‡Š header end
 
 
 container
@@ -108,8 +108,8 @@ footer
 js  jquery,knockoutjs  
 
 
-//×¢ÊÍ
+//æ³¨é‡Š
 function a(){
 }
 
-·ÅÔÚbodyºóÃæ£¬×¢ÒâË³Ğò
+æ”¾åœ¨bodyåé¢ï¼Œæ³¨æ„é¡ºåº
