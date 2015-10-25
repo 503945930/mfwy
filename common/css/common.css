@@ -1,5 +1,20 @@
-input,button,select,textarea{outline:none;}
+input,button,select,textarea{outline:none !important;}
 .btn-transparent{
 	background: transparent;
 	border:transparent;
+}
+.fa-6{
+	font-size: 20em
+}
+.fa-5{
+	font-size: 12em
+}
+.fa-4{
+	font-size: 7em
+}
+.fa-5{
+	font-size: 4em
+}
+.fa-2{
+	font-size: 2em
 }
