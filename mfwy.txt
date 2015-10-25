@@ -7,8 +7,21 @@ index.html
 
 
 common
+ images
+ js
+ css 
  public
+<<<<<<< HEAD
    top.tpl.html; ---����top ҳ��  --�����
+=======
+   top.tpl.html;            ---公共头部top  页面      ---已完成 ---wy
+   logo.tpl.html            ---公共头部logo 页面      ---已完成 ---wy
+   footer-quanguo.tpl.html  ---公共底部全国包邮 页面  ---已完成 ---wy
+   footer-nav.tpl.html      ---公共底部导航 页面      ---已完成 ---wy
+   footer-cr.tpl.html       ---公共底部版权 页面      ---已完成 ---wy
+
+
+>>>>>>> origin/master
 		
 
 bower_components/
@@ -38,7 +51,11 @@ cm/     ---����
   js/commmon.js
   css/common.css
   public/ html	
+<<<<<<< HEAD
   caimi.html	 --����� XJ
+=======
+  caimi.html	 --已完成  --小军
+>>>>>>> origin/master
 
 
 

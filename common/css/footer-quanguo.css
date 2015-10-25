@@ -1,0 +1,25 @@
+.quanguobaooweg {
+  background-color: #f9f9f9;
+  border-top: #dddddd 1px solid;
+  margin-top: 26px;
+}
+.quanguobaoowege {
+  width: 1180px;
+  margin: 0 auto;
+  padding: 34px 0;
+}
+.quanguobaoowege dl {
+  float: left;
+}
+.quanguobaoowege dd {
+  float: left;
+  padding-left: 28px;
+}
+.quanguobaoowege dt {
+  float: left;
+  width: 178px;
+  line-height: 66px;
+  padding-left: 18px;
+  font-size: 26px;
+  font-family: "微软雅黑";
+}

@@ -4,11 +4,12 @@ select, input,label,button{ vertical-align:middle; }
   .head-foot .search{width:750px;margin:40px auto 0;height:64px;}
   .head-foot .search .ssk{width:650px;height:64px;color:#000;font-size:24px;padding:20px;
       border: 3px solid #e8390e;display: inline-block}
-  .head-foot .search .sousuo{width:100px;height:64px;background:#e8390e;border:none;margin-left:-6px;color:#fff;}
+  .head-foot .search .sousuo{width:100px;height:64px;background:#e8390e;border:none;margin-left:-6px;color:#fff;margin-top:0;float:none;}
   .head-foot .search .sousuo:hover{background:#f1421e}
   .head-foot .hot{width:750px;height:38px;background:#f9e793;margin:12px auto 0;font-size:16px;line-height: 38px;padding-left: 20px;}
   .head-foot .hot span{display: inline;float: left}
   .head-foot .hot .hot-list{height:18px;display: inline}
   .head-foot .hot .hot-list li{float:left;margin:0 10px;}
+  .head-foot .hot .hot-list li a:hover{color:}
 
 

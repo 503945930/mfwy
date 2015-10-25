@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 input,button,select,textarea{outline:none;}
 .btn-transparent {
     background: transparent;
@@ -6,10 +7,16 @@ input,button,select,textarea{outline:none;}
 }
 /* CSS Document */
 
+=======
+>>>>>>> origin/master
 html {
     font-family: sans-serif;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
+<<<<<<< HEAD
+>>>>>>> origin/master
+=======
+    outline: none;
 >>>>>>> origin/master
 }
 
@@ -93,7 +100,7 @@ a:hover {
     text-decoration: none;
     color: #000;
 }
-
+a:focus{outline:none;text-decoration: none;}
 input,
 button,
 select,
