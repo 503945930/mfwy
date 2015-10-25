@@ -1,0 +1,62 @@
+
+
+//前端结构
+favio.ico
+
+index.html
+index/
+  images/
+   js/commmon.js
+  css/common.css
+  public/ html  		
+
+bower_components/
+lib/
+common/
+  images/
+  js/	
+  css/
+
+
+persion/
+  images/
+  js/commmon.js
+  css/common.css
+  public/ html	
+  persion.html	
+
+
+
+package.json
+bower.json
+gulpfile.js	
+
+
+
+
+css 类命名方式  
+
+命名 英语语义  多个单词 驼峰命名（第一个小写，后面大写）    
+ 
+styly  .header  .thumbnail{}
+
+注释 header start
+header
+  thumbnail
+注释 header end
+
+
+container
+
+
+footer
+
+
+js  jquery,knockoutjs  
+
+
+//注释
+function a(){
+}
+
+放在body后面，注意顺序
