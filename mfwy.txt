@@ -36,12 +36,13 @@ cm/     ---采蜜
   caimi.html	
 
 
-cm/     ---采蜜
+
+dn/     ---采蜜
   images/
   js/commmon.js
   css/common.css
-  public/ html	
-  caimi.html
+  design.html	
+  
 
 tp/     ---模板
   images/
@@ -51,7 +52,7 @@ tp/     ---模板
   template.html
 
 
-wk/     ---采蜜
+wk/     ---威客
   images/
   js/commmon.js
   css/common.css
