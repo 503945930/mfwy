@@ -1,0 +1,109 @@
+.fotbgimg {
+  background-color: #464649;
+}
+.fotbgimg_a {
+  width: 1180px;
+  margin: 0 auto;
+}
+.guanyufejiweng {
+  padding-bottom: 25px;
+  padding-left: 36px;
+}
+
+.guanyufejiweng ul {
+  padding-top: 22px;
+  float: left;
+  width: 218px;
+  background: url(/common/images/dibubanweg_30.jpg) right 20px no-repeat;
+  }
+
+  .guanyufejiweng ul {
+  padding-top: 22px;
+  float: left;
+  width: 218px;
+  background: url(/common/images/dibubanweg_30.jpg) right 20px no-repeat;
+}
+
+.fotbgimg_a_a dl {
+  width: 218px;
+  height: 38px;
+}
+
+.guanyufejiweng li {
+  line-height: 23px;
+  color: #FFF;
+  padding-left: 78px;
+}
+
+.fotbgimg_a_a dd {
+  float: left;
+  padding-left: 35px;
+}
+.fotbgimg_a_a dt {
+  float: left;
+  width: 125px;
+  padding-left: 5px;
+  line-height: 31px;
+  color: #FFF;
+  font-size: 18px;
+  font-family: "微软雅黑";
+}
+.fotbgimg_a_a dd img {
+  display: block;
+}
+.fotbgimg_a_a dt a {
+  color: #FFF;
+}
+.guanyufejiweng a {
+  color: #FFF;
+}
+.fenixanwegww dl {
+  width: 218px;
+  height: 38px;
+}
+.fenixanwegww li {
+  margin-bottom: 10px;
+  padding-left: 60px;
+}
+.fenixanwegww dd {
+  float: left;
+  padding-left: 35px;
+}
+.fenixanwegww dt {
+  float: left;
+  width: 125px;
+  padding-left: 5px;
+  line-height: 31px;
+  color: #FFF;
+  font-size: 18px;
+  font-family: "微软雅黑";
+}
+.fenixanwegww dd img {
+  display: block;
+}
+.fenixanwegww dt a {
+  color: #FFF;
+}
+.fenixanwegww li {
+  margin-bottom: 10px;
+  padding-left: 60px;
+}
+.fenixanwegww a {
+  display: block;
+  height: 40px;
+}
+.fenixanwegwwa {
+  float: left;
+}
+.fenixanwegwwb {
+  float: left;
+  width: 82px;
+  text-align: right;
+  font-size: 18px;
+  line-height: 40px;
+  font-family: "微软雅黑";
+}
+.guanyufejiweng a:hover {
+  color: #FFF;
+  text-decoration: underline;
+}

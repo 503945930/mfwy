@@ -7,8 +7,17 @@ index.html
 
 
 common
+ images
+ js
+ css 
  public
-   top.tpl.html; ---公共top 页面  --已完成
+   top.tpl.html;            ---公共头部top  页面      ---已完成 ---wy
+   logo.tpl.html            ---公共头部logo 页面      ---已完成 ---wy
+   footer-quanguo.tpl.html  ---公共底部全国包邮 页面  ---已完成 ---wy
+   footer-nav.tpl.html      ---公共底部导航 页面      ---已完成 ---wy
+   footer-cr.tpl.html       ---公共底部版权 页面      ---已完成 ---wy
+
+
 		
 
 bower_components/
@@ -38,7 +47,7 @@ cm/     ---采蜜
   js/commmon.js
   css/common.css
   public/ html	
-  caimi.html	 --已完成
+  caimi.html	 --已完成  --小军
 
 
 

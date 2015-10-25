@@ -1,1 +1,12 @@
 @charset "utf-8";
+
+.logo{ width:1180px; margin:0 auto; height:108px;}
+.logoa{ padding-top:20px; float:left;}
+.sousuowenb{ width:362px; height:35px; line-height:35px; float:left; border:0;outline-width:0;outline-style:none; padding:5px 0 5px 15px;}
+.ssanniu{ width:50px; height:35px; float:right; background:url(/common/images/sousuo_04.jpg) 0 0 no-repeat; border:0}
+.sousuo{ float:left; margin-top:17px; margin-left:120px; }
+.ershou{ float:right; margin-top:26px;}
+.sousuoa{ width:429px;border: 1px solid red}
+.remenguanjiaci{ line-height:22px; font-family:"微软雅黑";}
+.remenguanjiaci a{ color:#777777; padding:0 7px;}
+.remenguanjiaci a:hover{ color:#c81623;padding:0 7px;}
