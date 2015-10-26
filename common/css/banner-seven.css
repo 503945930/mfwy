@@ -1,60 +1,325 @@
-.banner{ width:1180px; margin:0 auto; height:44px;}
-.banner_a{ float:left;}
-.daohangimg{ background-color:#ff4100;}
-.nav{ line-height:44px; height:44px; position:relative;}
-.nav_a{ float:right; font-weight:bold; background-color:#5b5d61; width:238px; font-family:"微软雅黑"; font-size:15px; color:#FFF;}
-.nav_a a{ color:#FFF; width:194px; height:44px; display:block; background:url(../images/s_jiantou.png) 170px center no-repeat;}
-.nav_a a:hover{ color:#FFF; width:194px; height:44px; display:block; background:url(../images/x_jiantou.png) 170px center no-repeat;}
-.nav_a .ahover{ color:#FFF; width:194px; height:44px; display:block; background:url(../images/x_jiantou.png) 170px center no-repeat;}
-.gonggao{ width:259px; height:399px; border-bottom:#dddddd 1px solid;border-right:#dddddd 1px solid; float:right}
-.bannerxia{ position:relative;}
-.nav_xiala{ width:238px; background-color:#ffffff; height:360px; position:absolute; left:0; top:44px; }
-.nav_xialab{ width:238px; background-color:#FFF; height:360px; float:left; position:absolute; z-index:999; right:0; padding-top:10px}
-.nav_xialab li{ text-align:center; width:77px; float:left;}
-.nav_xialab a{ display:block; background:url(../images/infenlbg_05.jpg) center top no-repeat; height:88px;width:77px;color:#9d9d9d}
-.nav_xialab img{ display:block; margin:0 auto;}
-.nav_xialab a:hover{ display:block; background:url(../images/infenlbg_03.jpg) center top no-repeat; height:88px;width:77px; color:#ff4100}
-.banner_a{ margin-left:200px; position:relative;}
-.banerimg{
-	background:url(../images/dibubg.png) 0 0 repeat-x;
-	height:86px;
-	position:absolute;left:0;bottom:0;width: 819px;}
-.banerimg p{ width:591px; padding-left:35px; float:left; line-height:86px; font-size:16px; color:#FFF; font-family:"微软雅黑";}
-.banerimg p a{  color:#FFF;}
-.banerimg ul{ width:86px; float:right;}
-.banerimg li{ float:left; }
-.banerimg a{ width:22px; background:url(../images/dian.png) center center no-repeat; display:block; height:86px;}
-.banerimg a:hover{width:22px; background:url(../images/yuan.png) center center no-repeat; display:block; height:86px;}
-.fenleilanm{ float:left; padding-top:16px; padding-left:40px; margin-right:6px;height: 40px;}
+.header .banner {
+    width: 1180px;
+    margin: 0 auto;
+    height: 44px;
+}
 
-.caidan li{ float:left; width:126px; font-size:14px; text-align:center; font-family:"微软雅黑"; height:44px; line-height:44px;}
-.caidan a{ display:block; color:#FFF;}
-.caidan a:hover{ background-color:#c7000b}
-.wangzhi{ float:right;}
-.huiyuanp{ font-size:14px; color:#333; line-height:50px; font-family:"微软雅黑";}
-.huiyuan dt{ float:left; width:135px; padding-left:15px; padding-top:15px;}
-.huiyuan dl{ height:80px;}
-.huiyuan{ padding-left:21px;}
-.huiyuan dd{ float:left; padding-left:3px;}
-.huiyuan dd img{border-radius: 100%; display:block}
-.huayieng{ font-size:17px; font-weight:bold; color:#555555; font-family:"微软雅黑";}
-.dengluzhuce{ margin-top:15px;}
-.dengluzhuce a{ float:left; margin:0 26px 0 3px ; display:block;}
+.header .banner_a {
+    float: left;
+}
 
-/*menu*/
+.header .daohangimg {
+    background-color: #ff4100;
+}
 
-#nav {display:block; font-family:"微软雅黑";}
-#nav .mainlevel {float:left; background:#ff4100; text-align:center; display:block;}
-#nav .mainlevel a {color:#fff; text-decoration:none; line-height:44px; height:44px; font-size:18px; text-align:center; padding:0 24px; display:block; _width:48px;}
-#nav .mainlevel a:hover {color:#fff; text-decoration:none; background:#c7000b;}
-#nav .mainlevel .ahover {color:#fff; text-decoration:none; background:#c7000b;}
-#nav .mainlevel ul {position:absolute; display:none; background:#fff; padding:0 15px;z-index:999999; *width:2000px;/*IE is great need, width>=li.length*/}
-#nav .mainlevel li {float:left;  }
-#nav .mainlevel li a {padding:0 12px; line-height:42px; height:42px; font-size:14px; color:#777; display:block; _padding-bottom:6px;/*IE6 only*/}
-#nav .mainlevel li a:hover {color:#3f240e; text-decoration:none; background:none; color:#ff4100; font-size:14px;}
-#nav li a em/*input an em tag as a space*/ {padding:0 3px;}
-img {
-  vertical-align: top;
+.header .nav {
+    line-height: 44px;
+    height: 44px;
+    position: relative;
+}
+
+.header .nav_a {
+    float: right;
+    font-weight: bold;
+    background-color: #5b5d61;
+    width: 238px;
+    font-family: "微软雅黑";
+    font-size: 15px;
+    color: #FFF;
+}
+
+.header .nav_a a {
+    color: #FFF;
+    width: 194px;
+    height: 44px;
+    display: block;
+    background: url(../images/s_jiantou.png) 170px center no-repeat;
+}
+
+.header .nav_a a:hover {
+    color: #FFF;
+    width: 194px;
+    height: 44px;
+    display: block;
+    background: url(../images/x_jiantou.png) 170px center no-repeat;
+}
+
+.header .nav_a .ahover {
+    color: #FFF;
+    width: 194px;
+    height: 44px;
+    display: block;
+    background: url(../images/x_jiantou.png) 170px center no-repeat;
+}
+
+.header .gonggao {
+    width: 259px;
+    height: 399px;
+    border-bottom: #dddddd 1px solid;
+    border-right: #dddddd 1px solid;
+    float: right
+}
+
+.header .bannerxia {
+    position: relative;
+}
+
+.header .nav_xiala {
+    width: 238px;
+    background-color: #ffffff;
+    height: 360px;
+    position: absolute;
+    left: 0;
+    top: 44px;
+}
+
+.header .nav_xialab {
+    width: 238px;
+    background-color: #FFF;
+    height: 360px;
+    float: left;
+    position: absolute;
+    z-index: 999;
+    right: 0;
+    padding-top: 10px
+}
+
+.header .nav_xialab li {
+    text-align: center;
+    width: 77px;
+    float: left;
+}
+
+.header .nav_xialab a {
+    display: block;
+    background: url(../images/infenlbg_05.jpg) center top no-repeat;
+    height: 88px;
+    width: 77px;
+    color: #9d9d9d
+}
+
+.header .nav_xialab img {
+    display: block;
+    margin: 0 auto;
+}
+
+.header .nav_xialab a:hover {
+    display: block;
+    background: url(../images/infenlbg_03.jpg) center top no-repeat;
+    height: 88px;
+    width: 77px;
+    color: #ff4100
+}
+
+.header .banner_a {
+    margin-left: 200px;
+    position: relative;
+}
+
+.header .banerimg {
+    background: url(../images/dibubg.png) 0 0 repeat-x;
+    height: 86px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 819px;
+}
+
+.header .banerimg p {
+    width: 591px;
+    padding-left: 35px;
+    float: left;
+    line-height: 86px;
+    font-size: 16px;
+    color: #FFF;
+    font-family: "微软雅黑";
+}
+
+.header .banerimg p a {
+    color: #FFF;
+}
+
+.header .banerimg ul {
+    width: 86px;
+    float: right;
+}
+
+.header .banerimg li {
+    float: left;
+}
+
+.header .banerimg a {
+    width: 22px;
+    background: url(../images/dian.png) center center no-repeat;
+    display: block;
+    height: 86px;
+}
+
+.header .banerimg a:hover {
+    width: 22px;
+    background: url(../images/yuan.png) center center no-repeat;
+    display: block;
+    height: 86px;
+}
+
+.header .fenleilanm {
+    float: left;
+    padding-top: 16px;
+    padding-left: 40px;
+    margin-right: 6px;
+    height: 40px;
+}
+
+.header .caidan li {
+    float: left;
+    width: 126px;
+    font-size: 14px;
+    text-align: center;
+    font-family: "微软雅黑";
+    height: 44px;
+    line-height: 44px;
+}
+
+.header .caidan a {
+    display: block;
+    color: #FFF;
+}
+
+.header .caidan a:hover {
+    background-color: #c7000b
+}
+
+.header .wangzhi {
+    float: right;
+}
+
+.header .huiyuanp {
+    font-size: 14px;
+    color: #333;
+    line-height: 50px;
+    font-family: "微软雅黑";
+}
+
+.header .huiyuan dt {
+    float: left;
+    width: 135px;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+.header .huiyuan dl {
+    height: 80px;
+}
+
+.header .huiyuan {
+    padding-left: 21px;
+}
+
+.header .huiyuan dd {
+    float: left;
+    padding-left: 3px;
+}
+
+.header .huiyuan dd img {
+    border-radius: 100%;
+    display: block
+}
+
+.header .huayieng {
+    font-size: 17px;
+    font-weight: bold;
+    color: #555555;
+    font-family: "微软雅黑";
+}
+
+.header .dengluzhuce {
+    margin-top: 15px;
+}
+
+.header .dengluzhuce a {
+    float: left;
+    margin: 0 26px 0 3px;
+    display: block;
 }
 
 
+/*menu*/
+
+.header #nav {
+    display: block;
+    font-family: "微软雅黑";
+}
+
+.header #nav .mainlevel {
+    float: left;
+    background: #ff4100;
+    text-align: center;
+    display: block;
+}
+
+.header #nav .mainlevel a {
+    color: #fff;
+    text-decoration: none;
+    line-height: 44px;
+    height: 44px;
+    font-size: 18px;
+    text-align: center;
+    padding: 0 24px;
+    display: block;
+    _width: 48px;
+}
+
+.header #nav .mainlevel a:hover {
+    color: #fff;
+    text-decoration: none;
+    background: #c7000b;
+}
+
+.header #nav .mainlevel .ahover {
+    color: #fff;
+    text-decoration: none;
+    background: #c7000b;
+}
+
+.header #nav .mainlevel ul {
+    position: absolute;
+    display: none;
+    background: #fff;
+    padding: 0 15px;
+    z-index: 999999;
+    *width: 2000px;
+    /*IE is great need, width>=li.length*/
+}
+
+.header #nav .mainlevel li {
+    float: left;
+}
+
+.header #nav .mainlevel li a {
+    padding: 0 12px;
+    line-height: 42px;
+    height: 42px;
+    font-size: 14px;
+    color: #777;
+    display: block;
+    _padding-bottom: 6px;
+    /*IE6 only*/
+}
+
+.header #nav .mainlevel li a:hover {
+    color: #3f240e;
+    text-decoration: none;
+    background: none;
+    color: #ff4100;
+    font-size: 14px;
+}
+
+.header #nav li a em
+/*input an em tag as a space*/
+ {
+    padding: 0 3px;
+}
+
+.header img {
+    vertical-align: top;
+}

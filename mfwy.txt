@@ -1,6 +1,6 @@
-?
 
-//Ç°¶Ë½á¹¹
+//ç»“æ„   ä»»åŠ¡è¿›åº¦
+//å›¾æ ‡
 favio.ico
 
 index.html
@@ -11,17 +11,15 @@ common
  js
  css 
  public
-<<<<<<< HEAD
-   top.tpl.html; ---¹«¹²top Ò³Ãæ  --ÒÑÍê³É
-=======
    top.tpl.html;            ---å…¬å…±å¤´éƒ¨top  é¡µé¢      ---å·²å®Œæˆ ---wy
    logo.tpl.html            ---å…¬å…±å¤´éƒ¨logo é¡µé¢      ---å·²å®Œæˆ ---wy
    footer-quanguo.tpl.html  ---å…¬å…±åº•éƒ¨å…¨å›½åŒ…é‚® é¡µé¢  ---å·²å®Œæˆ ---wy
    footer-nav.tpl.html      ---å…¬å…±åº•éƒ¨å¯¼èˆª é¡µé¢      ---å·²å®Œæˆ ---wy
    footer-cr.tpl.html       ---å…¬å…±åº•éƒ¨ç‰ˆæƒ é¡µé¢      ---å·²å®Œæˆ ---wy
+   banner-sever.tpl.html    ---å…¬å…±å¯¼èˆª7             ---å·²å®Œæˆ ---wy
 
 
->>>>>>> origin/master
+
 		
 
 bower_components/
@@ -31,13 +29,13 @@ common/
   js/	
   css/
 
-index/    ---Ê×Ò³
+index/    ---é¦–é¡µ
   images/
   js/commmon.js
   css/common.css
 
 
-persion/     ---¸öÈËÖĞĞÄ
+persion/     ---ä¸ªäººä¸­å¿ƒ
   images/
   js/commmon.js
   css/common.css
@@ -46,41 +44,33 @@ persion/     ---¸öÈËÖĞĞÄ
 
 
 
-cm/     ---²ÉÃÛ
+cm/     ---é‡‡èœœ
   images/
   js/commmon.js
   css/common.css
-  public/ html	
-<<<<<<< HEAD
-  caimi.html	 --ÒÑÍê³É XJ
-=======
-  caimi.html	 --å·²å®Œæˆ  --å°å†›
->>>>>>> origin/master
+  public/ html
+  caimi.html	 --å·²å®Œæˆ XJ
 
 
 
-dn/     ---²ÉÃÛ
+
+dn/     ---åœ¨çº¿è®¾è®¡
   images/
   js/commmon.js
   css/common.css
   design.html	
   
 
-tp/     ---Ä£°å
+tp/     ---æ¨¡æ¿
   images/
   js/commmon.js
   css/common.css
   public/ html	
   template.html 
 
-zx/    ---ÔÚÏßÉè¼Æ
-images/
-js/common.js
-css/commom.css
-public/html
-online.html
 
-wk/     ---Íş¿Í
+
+wk/     ---èœ‚å¨å®¢
   images/
   js/commmon.js
   css/common.css
@@ -89,7 +79,7 @@ wk/     ---Íş¿Í
 
 
 
-mt/     ---ËØ²Ä
+mt/     ---ç´ æ
   images/
   js/commmon.js
   css/common.css
@@ -98,7 +88,7 @@ mt/     ---ËØ²Ä
 
 
 
-mx/     --ÃÛÏí
+mx/     ---èœœäº«
   images/
   js/commmon.js
   css/common.css
@@ -115,29 +105,4 @@ gulpfile.js
 
 
 
-css ÀàÃüÃû·½Ê½  
 
-ÃüÃû Ó¢ÓïÓïÒå  ¶à¸öµ¥´Ê ÍÕ·åÃüÃû£¨µÚÒ»¸öĞ¡Ğ´£¬ºóÃæ´óĞ´£©    
- 
-styly  .header  .thumbnail{}
-
-×¢ÊÍ header start
-header
-  thumbnail
-×¢ÊÍ header end
-
-
-container
-
-
-footer
-
-
-js  jquery,knockoutjs  
-
-
-//×¢ÊÍ
-function a(){
-}
-
-·ÅÔÚbodyºóÃæ£¬×¢ÒâË³Ğò
