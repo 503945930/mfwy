@@ -1,0 +1,43 @@
+<link rel="stylesheet" href="/common/css/right-float.css" />
+<div class="zuocefudong">
+    <div class="wangxiadiameg_wopeg">
+        <div class="shouqiongjitao"><a href="#">收起</a></div>
+    </div>
+    <ul class="zuocefudong_cd">
+        <li><a href="#">LOGO</a></li>
+        <li><a href="#">名片</a></li>
+        <li><a href="#">宣传单</a></li>
+        <li><a href="#">画册</a></li>
+        <li><a href="#">优惠券</a></li>
+        <li><a href="#">会员卡</a></li>
+        <li><a href="#">不干胶贴</a></li>
+        <li><a href="#">手提袋</a></li>
+        <li><a href="#">纸杯</a></li>
+        <li><a href="#">封套</a></li>
+        <li><a href="#">台历</a></li>
+        <li><a href="#">挂历</a></li>
+        <li><a href="#">自定义设计</a></li>
+    </ul>
+    <div class="wngshangimgeba"><a href="蜂蜜网印首页.html">
+        <p class="wngshangimgebap">购物车</p>
+    </a></div>
+    <div class="wngshangimgebb"><a href="蜂蜜网印首页.html">
+        <p class="wngshangimgebap">购物车</p>
+    </a></div>
+    <div class="wngshangimgebc"> <a href="蜂蜜网印首页.html">
+        <p class="wngshangimgebap">购物车</p>
+    </a> </div>
+    <p class="wngshangimge"><a href="#"><img src="/common/images/efwewef.jpg" width="33" height="19"></a></p>
+</div>
+
+<script type="text/javascript">
+ $(function(){
+     $(".wangxiadiameg_wopeg").unbind("click").click(function () {
+         var hide = $(".zuocefudong_cd").css("display") == "none";
+         hide ? $(".zuocefudong_cd").show(300) : $(".zuocefudong_cd").hide(300);
+         var a = $(".shouqiongjitao a").html("" + (hide ? "收起" : "展开"));
+         a.css("background", !hide ? "none" : "");
+         return false;
+     });
+ })
+</script>
