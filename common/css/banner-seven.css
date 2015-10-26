@@ -25,7 +25,7 @@
 .banerimg li{ float:left; }
 .banerimg a{ width:22px; background:url(../images/dian.png) center center no-repeat; display:block; height:86px;}
 .banerimg a:hover{width:22px; background:url(../images/yuan.png) center center no-repeat; display:block; height:86px;}
-.fenleilanm{ float:left; padding-top:16px; padding-left:40px; margin-right:6px;}
+.fenleilanm{ float:left; padding-top:16px; padding-left:40px; margin-right:6px;height: 40px;}
 
 .caidan li{ float:left; width:126px; font-size:14px; text-align:center; font-family:"微软雅黑"; height:44px; line-height:44px;}
 .caidan a{ display:block; color:#FFF;}
@@ -53,3 +53,8 @@
 #nav .mainlevel li a {padding:0 12px; line-height:42px; height:42px; font-size:14px; color:#777; display:block; _padding-bottom:6px;/*IE6 only*/}
 #nav .mainlevel li a:hover {color:#3f240e; text-decoration:none; background:none; color:#ff4100; font-size:14px;}
 #nav li a em/*input an em tag as a space*/ {padding:0 3px;}
+img {
+  vertical-align: top;
+}
+
+
