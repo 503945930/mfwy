@@ -94,6 +94,14 @@ textarea {
     background: transparent;
     border: transparent;
 }
+.btn-green {
+    background: #00A73D;
+    border: #00A73D;
+    outline: none;
+}
+.btn-green:focus{
+    outline: none;
+}
 
 .fa-6 {
     font-size: 20em

@@ -1,0 +1,46 @@
+@charset "utf-8";
+
+html, form, ul, ol, li, dl, dt, dd, img, input, div, p {
+    margin:0px;
+    padding:0px;
+    border:0px;
+}
+ul, dl, li {
+    list-style-type:none;
+}
+.clear {
+    clear:both;
+}
+dt{
+    font-weight: normal;
+}
+
+.top{ background-color:#363c4c; height:39px; line-height:39px; border-bottom:#dddddd 1px solid;}
+.header .topa{ float:left; color:#dbceac}
+.header .topb{ color:#666; float:right; text-align:right;}
+.header .topb a{ padding:0 8px; color:#fff}
+.header .topb a:hover{ padding:0 8px; color:#02b7e6  }
+.header .topk{ width:1180px; margin:0 auto;}
+.header .logo{ width:1180px; margin:0 auto; height:108px;}
+.header .logoa{ padding-top:20px; float:left;}
+
+.header .smerweima{width:110px;height:110px;display:none;right:54px; position:absolute;top:108px;}
+.header .shanghaizhan{ float:left; width:520px;}
+.header .shanghaizhan li{ float:left; margin-right:20px;}
+.header .shanghaizhan a{ color:#fff}
+.header .shanghaizhan a:hover{ color:#02b7e6  }
+.header .haszhan a{ display:block; background:url(/common/images/indextopa_13-black.png) left center no-repeat; padding-left:24px; padding-right:18px;color:#fff}
+.header .haszhan a:hover{ display:block; background:url(/common/images/indextopa_12-black.png) left center no-repeat; padding-left:24px;padding-right:18px;}
+.header .haszhana a{ display:block; background:url(/common/images/home-black-1.png) left center no-repeat; padding-left:29px;}
+.header .haszhana a:hover{ display:block; background:url(/common/images/home-black-2.png) left center no-repeat; padding-left:29px;}
+.header .haszhanb a{ display:block; background:url(/common/images/phone-black-2.png) left center no-repeat; padding-left:24px;}
+.header .haszhanb a:hover{ display:block; background:url(/common/images/phone-black-1.png) left center no-repeat; padding-left:24px;}
+
+.header .topyb{ float:right; width:300px}
+.header .topzb dl{ float:right; width:78px;}
+.header .topzb dt{ width:45px; padding-right:12px; text-align:right; float:left;line-height: 39px}
+.header .topzb dd{ float:left; padding-top:9px; padding-left:2px;}
+.header .topzb{ float:right; width:160px;}
+.header .topzb a{ padding:0px;}
+.header .topzb a:hover{ padding:0px;}
+

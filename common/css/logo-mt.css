@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+.header .logo{ width:1180px; margin:0 auto; height:108px;}
+.header .logoa{ padding-top:20px; float:left;}
+.header .sousuowenb{ width:500px; height:40px; line-height:35px; float:left; border:0;outline-width:0;outline-style:none; padding:5px 0 5px 15px;}
+.header .ssanniu{ width:50px; height:40px; float:right; background:url(/common/images/search-mt-2.png) 0 0 no-repeat; border:0;background-color: #00853c}
+.header .sousuo{ float:left; margin-top:24px; margin-left:120px; }
+.header .ershou{ float:right; margin-top:26px;}
+.header .sousuoa{ width:600px;border: 3px solid #00853c}
+.header .remenguanjiaci{ line-height:22px; font-family:"微软雅黑";}
+.header .remenguanjiaci a{ color:#777777; padding:0 7px;}
+.header .remenguanjiaci a:hover{ color:#c81623;padding:0 7px;}
+.header .shangchuang{width: 150px;height:46px;float: right;margin-top: 24px}
+.header .shangchuang button{width: 100%;height: 100%;color:#fff;text-align: center}
