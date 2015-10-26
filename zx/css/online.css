@@ -1,5 +1,7 @@
 *{padding:0;margin:0}
 select, input,label,button{ vertical-align:middle; }
+button{border:none;}
+hr{margin:10px 0;}
 .head-foot{width:100%;min-width: 1180px;height:284px;background:#f4cf26;padding:50px 0;}
   .head-foot .search{width:750px;margin:40px auto 0;height:64px;}
   .head-foot .search .ssk{width:650px;height:64px;color:#000;font-size:24px;padding:20px;
@@ -11,6 +13,37 @@ select, input,label,button{ vertical-align:middle; }
   .head-foot .hot .hot-list{height:18px;display: inline}
   .head-foot .hot .hot-list li{float:left;margin:0 10px;}
   .head-foot .hot .hot-list li a:hover{color:#ff4100;}
-div #weizhi{width:1180px;height:32px;margin:0 auto:}
+div #weizhi{width:1180px;height:32px;margin:0 auto;line-height: 32px;font-size: 14px; font-family: "Î¢ÈíÑÅºÚ";color:#6a6a6a}
+
+.container{margin-top:60px;min-width:1180px;}
+.container .preview{width:730px;height:896px;float:left;position: relative;}
+  .container .preview .center-img{width:600px;height:894px; margin: 0 auto;background: url("../images/preview.png") center no-repeat}
+  .container .preview .prev{width:40px;height:94px;position: absolute;left:0; top:50%;margin-top:-47px;background: url("../images/prev.png") center no-repeat}
+  .container .preview .next{width:40px;height:94px;position: absolute;right:0; top:50%;margin-top:-47px;background: url("../images/next.png") center no-repeat}
+  .container .info{width:386px;float:left;margin-left:20px;}
+  .container .info h1{font-size: 28px;}
+  .container .info .require{width:386px;}
+  .container .info .require p{float:left;color:#999;font-size:14px;margin-top:2.4em;}
+  .container .info .require .shuru{width:384px;height:280px;max-width: 384px;max-height:280px;}
+  .container .shangchuan{width:118px;height:36px;border:1px solid #ebebeb;background:#f5f5f5;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
