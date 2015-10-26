@@ -1,0 +1,34 @@
+.content .left{
+    width: 150px;
+    height: auto;
+    float: left;
+}
+.content .left .head{
+    width: 100%;
+    height: 110px;
+    background-color: #fe4100;
+}
+.content .left .left-menu{
+      width: 100%;
+      height: 800px;
+      background-color: #313131;
+  }
+.content .left .nav{
+    text-align: center;
+    padding-top: 10px;
+}
+.content .left .left-menu li {
+    text-align: center;
+    margin-top: 5px;
+}
+.content .left .left-menu a{
+    color: #f4f4f4;
+}
+.content .left .menu-title{
+    font-size: 15px;
+    border-bottom: 1px solid #3a3a3a;
+    padding-bottom: 5px;
+}
+.content .left .menu-title i{
+    color:#ff4100
+}
