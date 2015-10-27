@@ -22,6 +22,10 @@ common
    footer-cr.tpl.html       ---公共底部版权 页面      ---已完成 ---wy
    banner-sever.tpl.html    ---公共导航7             ---已完成 ---wy
    banner-four-black.tpl.html    ---公共去印刷吧导航4             ---已完成 ---wy
+   right-float.tpl.html     ---右侧浮动              ---已完成  ---wy
+   banner-peron.tpl.html    ---个人中心banner        ---已完成   ---wy
+   left-person.tpl.html     ---个人中心左侧菜单       ---已完成   ---wy
+
 
 
 
