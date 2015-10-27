@@ -20,7 +20,9 @@
     <div class="header">
         <div class="include" data-include="top"></div>
         <div class="include" data-include="logo"></div>
+        <div class="include" data-include="banner-four"></div>
     </div>
+    <div class="include" data-include="head-foot"></div>
     <div class="content" style="width:100%;height:900px"></div>
     <div class="footer">
         <div class="include" data-include='footer-quanguo'></div>
@@ -30,14 +32,6 @@
 </body>
 <script src="../lib/jquery-1.9.1/jquery-1.9.1.min.js" type="text/javascript" charset="utf-8"></script>
 <script src="../bower_components/bootstrap/dist/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
-<script type="text/javascript">
-$(function() {
-    var includes = $('.include');
-    $.each(includes, function() {
-        var file = '../common/public/' + $(this).data('include') + '.tpl.html';
-        $(this).load(file);
-    });
-});
-</script>
+<script src="../common/js/init.js" type="text/javascript" charset="utf-8"></script>
 
 </html>
