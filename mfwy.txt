@@ -107,6 +107,13 @@ mx/     ---蜜享
   public/ html	
   mixiang.html
 
+kd/   设计师开店
+  images/
+  js/commmon.js
+  css/common.css
+  public/ html
+  shop.html
+
 
 
 
