@@ -25,6 +25,7 @@ common
    right-float.tpl.html     ---右侧浮动              ---已完成  ---wy
    banner-peron.tpl.html    ---个人中心banner        ---已完成   ---wy
    left-person.tpl.html     ---个人中心左侧菜单       ---已完成   ---wy
+   head-foot.tpl.html     --在线设计黄色搜索区域     --已完成   ---xj
 
 
 
