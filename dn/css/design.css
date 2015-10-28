@@ -2,7 +2,7 @@
 select, input,label,button{ vertical-align:middle; }
 button{border:none;}
 hr{margin:10px 0;}
-
+.money{color: #fe4101}
   #weizhi{width:1180px;height:32px;margin:0 auto;line-height: 32px;font-size: 14px; font-family: "Î¢ÈíÑÅºÚ";color:#6a6a6a}
 
 .container{margin-top:60px;min-width:1180px;font-size:14px;}
@@ -57,12 +57,20 @@ hr{margin:10px 0;}
   .fill-in .sf{min-width: 100px;}
   .fill-in .kuaidi{width:105px;padding:2px 14px; font-size:12px;}
   .fill-in .kuaidi .caret{margin-left:10px;}
-   .fill-in .kd{min-width: 100px;}
+  .fill-in .kd{min-width: 100px;}
+  .fill-in .Paper{display:block;width:49px;float:left;margin-top:10px;text-align: right}
+  .fill-in .Single-sided,.Binding-mode,.Product-size,.num{width:49px;margin-top:20px;text-align: right}
+  .fill-in .Technology{display:block;width:49px;float:left;margin-top:24px;text-align: right}
+  .fill-in .paper-type{margin-top:17px;}
+  .fill-in .paper-type li{display: block;width:93px;height:28px;border:1px solid #e7e7e7;float:left;margin-left:11px;line-height: 28px;}
+  .fill-in .Single-sided-sel{display: block;width:405px;border:1px solid #ff6600;margin-left: 10px;margin-top:20px; float: left;}
+  .fill-in .typography{display: block;margin-top:20px; }
+  .fill-in .typography label{margin-left: 10px;display:block;float:left;padding:0 10px;border:1px solid #e7e7e7;line-height: 28px;font-weight: normal}
 
-
-
-
-
+  .fill-in .typography label input{margin:0;}
+  .fill-in .Printing-num{margin-top:17px;}
+  .fill-in .Printing-num li{display: block;height:28px;border:1px solid #e7e7e7;float:left;margin-left:11px;line-height: 28px;padding:0 10px;}
+  .fill-in .buy{display: block;width:180px;height:40px;color:#fff;font-size:20px;background:#fe4101}
 
 
 
