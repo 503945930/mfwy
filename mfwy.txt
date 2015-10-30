@@ -47,12 +47,12 @@ index/    ---首页
   css/common.css
 
 
-persion/     ---个人中心
+person/     ---个人中心
   images/
   js/commmon.js
   css/common.css
   public/ html	
-  persion.html	
+  person.html
 
 
 
