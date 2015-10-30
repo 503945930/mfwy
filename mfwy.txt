@@ -1,4 +1,4 @@
-
+﻿
 //结构   任务进度
 //图标
 favio.ico
@@ -47,7 +47,7 @@ index/    ---首页
   css/common.css
 
 
-person/     ---个人中心
+person/      ---个人中心
   images/
   js/commmon.js
   css/common.css
