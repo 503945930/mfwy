@@ -1,0 +1,82 @@
+
+select, input,label,button{ vertical-align:middle; }
+button{border:none;}
+hr{margin:10px 0;}
+.money{color: #fe4101}
+  #weizhi{width:1180px;height:32px;margin:0 auto;line-height: 32px;font-size: 14px; font-family: "Î¢ÈíÑÅºÚ";color:#6a6a6a}
+
+.container{margin-top:60px;min-width:1180px;font-size:14px;}
+.container .preview{width:730px;height:896px;float:left;position: relative;}
+  .container .preview .center-img{width:600px;height:894px; margin: 0 auto;background: url("../images/preview.png") center no-repeat}
+  .container .preview .prev{width:40px;height:94px;position: absolute;left:0; top:50%;margin-top:-47px;background: url("../images/prev.png") center no-repeat}
+  .container .preview .next{width:40px;height:94px;position: absolute;right:0; top:50%;margin-top:-47px;background: url("../images/next.png") center no-repeat}
+  .container .info{width:386px;float:left;margin-left:20px;}
+  .container .info h1{font-size: 28px;}
+  .container .Design-require{display:block;}
+  .container .info .require{width:386px;font-size:14px;}
+  .container .info .require  .price p{float:left;color:#999;font-size:14px;margin-top:2.4em;}
+  .container .info .require .shuru{width:384px;height:280px;max-width: 384px;max-height:280px;padding:10px;margin-top:10px;}
+  .container .shangchuan{width:118px;height:36px;border:1px solid #ebebeb;background:#f5f5f5;padding:8px 22px;font-size:14px;line-height: 18px;float: left;}
+  .container .shangchuan .sc-img{background:url(../images/shangchuan.png) no-repeat left;width:10px;height:18px; display: block;float:left;}
+  .container .go-yinshua{width:384px;height:50px;background:#fe4101;color:#fff;font-size:22px;font-weight: 500;margin:15px 0;}
+  .container .btn-submit{display:none;width:384px;height:50px;background:#fe4101;color:#fff;font-size:22px;font-weight: 500;margin:15px 0;}
+  .container .file-info{width:384px;height:213px;border:1px solid #ebebeb;color:#666;padding:5px 20px;}
+  .container .file-info hr{margin:6px 0;}
+  .container .file-info p{line-height: 30px;}
+  .container .file-info table{width:100%}
+  .container .file-info td{width:50%;}
+  .container .Collection{width:135px; height:50px;border:1px solid #ebebeb;font-size:20px;margin-top: 22px;background:#f6f6f6;color:#666;}
+  .container .Collection:hover{width:135px; height:50px;border:1px solid #ebebeb;font-size:20px;margin-top: 22px;background:#fe4101;color:#fff;}
+  .container .down{width:227px; height:52px;font-size:20px;margin-top: 22px;margin-left:16px;background:url("../images/down.png") no-repeat center;padding-left:30px;}
+  .container .down:hover{width:227px; height:52px;font-size:20px;margin-top: 22px;margin-left:16px;background:url("../images/down-hover.png") no-repeat center;padding-left:30px;color:#fff;}
+  .container .case{width:1180px; margin-top:10px;padding:0 30px;}
+  .container .case table{width:100%;line-height:42px;margin-top:15px;}
+  .container .case .tr{border-bottom: 1px solid #ccc;}
+  .container .case table th{color:#8c8c8c;height:42px;background:#fafafa}
+  .container .case .relevant{margin-top:50px;}
+  .container .rel-tpl{width:1180px; margin: 0 auto;}
+  .container .rel-tpl{padding:15px;}
+  .container .rel-tpl .thumbnail{border:1px solid #e8e8e8;height:230px;position: relative}
+.container .rel-tpl .thumbnail:hover{border:1px solid #fe4101;height:230px;position: relative}
+  .container .rel-tpl .tpl-name{font-size:14px;font-weight: 600}
+  .container .rel-tpl .go-imitation{width:75px;height:72px;position: absolute;bottom:0;right:0;background:url("../images/Imitation.png") no-repeat;
+    padding-top:40px;font-size: 12px;color:#cdcdcd;}
+ .container .rel-tpl .go-imitation:hover{width:73px;height:70px;position: absolute;bottom:0;right:0;background:url("../images/Imitation-hover.png") no-repeat;
+  padding-top:40px;font-size: 12px;color:#fff;border:1px solid #fe4101;}
+
+.fill-in{display: none;width:1094px;position: fixed;top:10px;left:50%;margin-left:-547px;border:1px solid #e8390e;padding:48px 30px;background:#fff;}
+  .fill-in .fa-times{position: absolute;right:10px;top:10px;font-size:14px;}
+  .fill-in .Design-info{display: block;padding:5px 16px;border-top:1px solid #ccc;width:160px;border-left:1px solid #ccc;
+    border-right:1px solid #ccc;font-size:14px;border-radius: 4px;}
+  .fill-in .Printing-title{display: block;padding:5px 16px;border-top:1px solid #ccc;width:160px;border-left:1px solid #ccc;
+  border-right:1px solid #ccc;font-size:14px;border-radius: 4px;margin-top: 50px;}
+  .fill-in .imit{border:1px solid #ccc;height:280px;}
+  .fill-in .Printing-info{height:148px;background:#f7f7f7;margin:10px auto;border-bottom: 1px solid #dfdfdf;padding:12px;}
+  .fill-in .shengfen{width:105px;padding:2px 14px; font-size:12px;}
+  .fill-in .shengfen .caret{margin-left:10px;}
+  .fill-in .sf{min-width: 100px;}
+  .fill-in .kuaidi{width:105px;padding:2px 14px; font-size:12px;}
+  .fill-in .kuaidi .caret{margin-left:10px;}
+  .fill-in .kd{min-width: 100px;}
+  .fill-in .Paper{display:block;width:49px;float:left;margin-top:10px;text-align: right}
+  .fill-in .Single-sided,.Binding-mode,.Product-size,.num{width:49px;margin-top:20px;text-align: right}
+  .fill-in .Technology{display:block;width:49px;float:left;margin-top:24px;text-align: right}
+  .fill-in .paper-type{margin-top:17px;}
+  .fill-in .paper-type li{display: block;width:93px;height:28px;border:1px solid #e7e7e7;float:left;margin-left:11px;line-height: 28px;}
+  .fill-in .Single-sided-sel{display: block;width:405px;border:1px solid #ff6600;margin-left: 10px;margin-top:20px; float: left;}
+  .fill-in .typography{display: block;margin-top:20px; }
+  .fill-in .typography label{margin-left: 10px;display:block;float:left;padding:0 10px;border:1px solid #e7e7e7;line-height: 28px;font-weight: normal}
+
+  .fill-in .typography label input{margin:0;}
+  .fill-in .Printing-num{margin-top:17px;}
+  .fill-in .Printing-num li{display: block;height:28px;border:1px solid #e7e7e7;float:left;margin-left:11px;line-height: 28px;padding:0 10px;}
+  .fill-in .buy{display: block;width:180px;height:40px;color:#fff;font-size:20px;background:#fe4101}
+
+
+
+
+
+
+
+
+

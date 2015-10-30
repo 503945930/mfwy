@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>在线设计</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../common/css/common.css" />
+    <link rel="stylesheet" href="css/mingpiansheji.css" />
+    <link rel="stylesheet" href="../bower_components/font-awesome/css/font-awesome.css"/>
+
+    <!--[if lt IE 9]>
+    <script src="../lib/html5shiv/html5shiv.js"></script>
+    <script src="../lib/respond-1.4.2/respond.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+<div class="header">
+    <div class="include" data-include="top"></div>
+    <div class="include" data-include="logo"></div>
+    <div class="include" data-include="banner-seven"></div>
+</div>
+<div style="clear: both"></div>
+<div style="width: 100%;height: 269px;background-color: #f4cf26;font-size: 58px;padding:120px;text-align: center" >
+    在线设计</div>
+
+<div class="flow">
+    <div class="flow-img">
+        <img  class="xzmb" src="images/xuanzemb.png" alt=""/>
+        <p class="xzmb-p">选择模板</p>
+        <p class="xzmb-p"><span class="right-h"></span></p>
+        <img  class="xzmb" src="images/bianjineirong.png" alt=""/>
+        <p>编辑内容</p>
+        <p class="xzmb-p"><span class="right-d"></span></p>
+        <img  class="xzmb" src="images/yinshuaxiadan.png" alt=""/>
+        <p>印刷下单</p>
+        <p class="xzmb-p"><span class="right-d"></span></p>
+        <img  class="xzmb" src="images/zhifufeiyong.png" alt=""/>
+        <p>支付费用</p>
+        <p class="xzmb-p"><span class="right-d"></span></p>
+        <img  class="xzmb" src="images/querenshouhuo.png" alt=""/>
+        <p>确认收货</p>
+    </div>
+    <div style="clear: both"></div>
+</div>
+<div class="content" style="width:1180px;height:900px;margin: 0 auto">
+    <div class="tab">
+        <ul>
+            <li><a href="javascript:void(0) ">免费设计</a></li>
+            <li><a href="javascript:void(0) ">仿制设计</a></li>
+            <li><a href="javascript:void(0) ">原创设计</a></li>
+            <li><a href="javascript:void(0) ">高端定制</a></li>
+            <li><a href="javascript:void(0) ">甜蜜城市</a></li>
+            <li><a href="javascript:void(0) ">秘蜜 <label >VIP</label></a></li>
+        </ul>
+        <input class="key" type="text" placeholder="查找你想要的模板关键字">
+        <input class="sel" type="button" value="查找"/>
+
+    </div>
+<!--tab  end--><div class="clear"></div>
+    <div class="tab-btm">
+        <p class="num">模板编号：</p>
+        <input class="num-input" type="text" />
+        <input class="num-sel" type="button" value="查找"/>
+        <p class="yuanjiao"><a href=""><span style="display: inline-block;width:18px;height:18px;background:#e4e4e4;box-shadow: 2px 2px 2px #a5a5a5;border-radius:2px">
+         </span> &nbsp;&nbsp;圆角预览</a>
+            <a href="" style="margin-left:15px;">最近使用</a></p>
+        <p class="chexiao"><a href=""><span class="fa fa-"></span>撤销</a></p>
+    </div>
+    </div>
+<div class="footer">
+    <div class="include" data-include='footer-quanguo'></div>
+    <div class="include" data-include='footer-nav'></div>
+    <div class="include" data-include='footer-cr'></div>
+</div>
+</body>
+<script src="../lib/jquery-1.9.1/jquery-1.9.1.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="../bower_components/bootstrap/dist/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript" src="../common/js/init.js"></script>
+<script>
+    $(".mb").hover(function(){
+        $(this).find(".fd-sc").show();
+    },function(){
+        $(".fd-sc").hide();
+    })
+</script>
+</html>

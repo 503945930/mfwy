@@ -1,0 +1,37 @@
+
+body{font-size: 14px}
+.flow{width:100%;height:125px;box-shadow: 0 5px 3px #ccc;}
+.flow .flow-img{width:1180px;height:100%;margin:0 auto;padding:22px;}
+.flow .flow-img img{float: left;margin-right:15px; }
+.flow .flow-img p{display: inline-block;float:left;margin-right: 19px;line-height: 81px;font-size: 20px}
+.flow .flow-img .xzmb-p{color:#f1421e}
+.flow .flow-img .xzmb-p .right-h{display: inline-block;width:21px;height:15px;background:url("../images/right-hover.png")}
+.flow .flow-img  p .right-d{display: inline-block;width:21px;height:15px;background:url("../images/right-d.png")}
+
+.content{padding-top: 20px}
+.content .tab {width: 100%;height: 40px;border: 1px solid #ddd;}
+.content .tab ul li{float: left;width: 120px;font-size: 18px;text-align: center;height: 40px;border-left:1px solid #ccc;}
+.content .tab ul li:last-child{border-right: 1px solid #ccc;}
+.content .tab ul li a{line-height: 40px;}
+.content .tab ul li label{background:#fe4101;font-size: 8px;color:#fff;line-height: 15px;padding:1px 2px}
+.content .tab ul li:hover{background: #ff4100;color: #fff}
+.content .tab ul li:first-child{width: 120px;background: #ff4100;color: #fff;border-left:none;}
+.content .tab ul li:first-child a:first-child{color: #fff}
+.content .tab .key{width:176px;height:24px;margin-top:7px;border:1px solid #000;padding:0 5px;margin-left:100px;}
+.content .tab .sel{display: inline-block;padding:0 12px;background:#f4f4f4;font-size:12px;border:1px solid #ccc;}
+.content .tab-btm {width: 1155px;height: 42px;border-bottom: 1px dotted #ddd;margin:0 auto;}
+.content .tab-btm .num{display: inline-block;line-height: 42px;}
+.content .tab-btm .num-input{width:80px;height:24px;margin-top:7px;border:1px solid #000;text-align: center}
+.content .tab-btm .num-sel{display: inline-block;padding:0 12px;background:#f4f4f4;font-size:12px;border:1px solid #ccc;}
+.content .tab-btm .yuanjiao{display: inline-block;line-height: 42px;margin-left:170px;}
+.content .tab-btm .chexiao{display: inline-block;line-height: 42px;margin-left:100px;}
+
+
+
+
+
+
+
+
+
+
