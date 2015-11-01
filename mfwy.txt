@@ -47,12 +47,13 @@ index/    ---首页
   css/common.css
 
 
-person/      ---个人中心
+person/      ---个人中心    正在做
   images/
   js/commmon.js
   css/common.css
   public/ html	
   person.html
+  register.html  --用户注册中心
 
 
 
