@@ -2,6 +2,7 @@
     width: 150px;
     height: auto;
     float: left;
+
 }
 .content .left .head{
     width: 100%;
@@ -22,7 +23,7 @@
     margin-top: 5px;
 }
 .content .left .left-menu a{
-    color: #f4f4f4;
+    color: #979797;
 }
 .content .left .menu-title{
     font-size: 15px;
