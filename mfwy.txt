@@ -52,8 +52,8 @@ person/      ---个人中心    正在做
   js/commmon.js
   css/common.css
   public/ html	
-  person.html
-  register.html  --用户注册中心
+  person.html       
+  register.html  --用户注册中心   完成 xj
 
 
 
