@@ -99,7 +99,8 @@ mt/     ---素材
   public/ html	
   material.html   ----ljs
   mtdownmf.html  ----ljs
-  mtdownsf   ---ljs
+  mtdownsf.html   ---ljs
+  mtshowmf.html ---ljs
 
 
 
