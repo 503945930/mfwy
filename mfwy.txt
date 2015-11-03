@@ -51,9 +51,19 @@ person/      ---个人中心    正在做
   images/
   js/commmon.js
   css/common.css
-  public/ html	
-  person.html       
+  public/ html
+  my-info.html ---个人资料（用户信息、站内信、收货地址、我的建议）    用户信息和收货地址已完成   xj
+  person.html
   register.html  --用户注册中心   完成 xj
+
+
+
+gddz/    --高端定制    已完成
+   images/
+   js/
+   css/gaodandingzhi.css
+   gaoduandingzhi.html     --已完成   xj
+
 
 
 
@@ -71,7 +81,9 @@ dn/     ---在线设计 已完成 xj
   images/
   js/commmon.js
   css/common.css
-  design.html	
+  Imitation.html    ---仿制设计   已完成   xj
+  mingpiansheji.html    --名片设计    已完成   xj
+  design.html	 --在线设计首页    已完成  xj
   
 
 tp/     ---模板

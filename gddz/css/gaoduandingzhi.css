@@ -1,0 +1,42 @@
+.content{width:1180px;margin:20px auto 0;}
+.clear{
+    clear: both;}
+.mgs{border:1px solid #ccc;}
+
+.content .property{height: 190px;width: 100%;border:5px solid #fe4101;border-top:14px solid #fe4101}
+.content .property .hot{height: 84px;width: 100%;border-bottom: 1px solid #dddddd;margin-top: 5px;}
+.content .property .hot .right{display: block;margin-left: 100px;}
+.content .property .hot ul li {float: left;text-align: center;height:40px;line-height: 40px;width: auto;margin: 0 10px;;}
+.content .property .hot ul li a{color: #777;}
+
+.content .property .fenlei{height: 40px;width: 100%;border-bottom: 1px solid #dddddd;margin-top: 5px;}
+.content .property .fenlei .right{display: block;margin-left: 100px;}
+.content .property .fenlei ul li {float: left;text-align: center;height:40px;line-height: 40px;width: auto;margin: 0 10px;;}
+.content .property .fenlei ul li a{color: #777;}
+
+.content .property .color{height: 40px;width: 100%}
+.content .property .color ul li {float: left;text-align: center;height:40px;line-height: 40px;width: auto;margin: 0 10px;;}
+.content .property .pro a:hover{color: #ff4100;}
+.content .property .hot a:hover{color: #ff4100;}
+
+
+.content .row{padding:0;}
+.content .row .col-md-3{margin-top:15px;width:25%;float:left;}
+.content .row .zhanshi{height:272px;border:1px solid #ccc;position: relative;padding:10px }
+.content .row .zhanshi:hover{border:1px solid #fe4101;}
+.content .row .zhanshi .wydz{display:none;position: absolute;bottom:58px;width:251px;height:45px;font-size: 16px;left:10px;color:#fff;background:#fe4101;font-weight: 600;border:none;}
+.content .row .zhanshi .name{position: absolute;bottom:0;left:10px;display: inline-block;width:251px;height:45px;
+    margin: 5px auto;line-height: 45px;font-size: 16px;font-weight: 600;color:#666;}
+.content .row .zhanshi .name-hover{background:#fe4101;color:#fff;}
+
+
+
+
+
+
+
+
+
+
+
+

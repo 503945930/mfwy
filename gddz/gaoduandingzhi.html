@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../common/css/common.css" />
+    <link rel="stylesheet" href="css/gaoduandingzhi.css" />
+    <link rel="stylesheet" href="../bower_components/font-awesome/css/font-awesome.css"/>
+    <style type="text/css">
+
+        html,body{
+            width: 100%;
+            height:100%;
+            min-height:900px;
+        }
+        *{
+            padding: 0;margin: 0;
+
+        }
+        .bg{width: 100% ;padding-top: 120px ;height: 683px ;
+            background: url('images/gdbg.png');background-size: 100% 100%}
+        .logo{width: 540px;height: 280px;margin:auto;text-align: center}
+        .logotp{margin: auto 0;width: 536px;height: 115px;}
+        .logozt{margin-top: 80px;width: 360px;height: 91px}
+        .shuruk{padding-bottom:15px;padding-top:15px;width: 591px;height: 55px;border: none;font-size: 16px;font-family: "微软雅黑";padding-left: 10px;float: left}
+        .woyaodztop{width: 740px;height: 56px;background-color: #efefef}
+        .woyaodz{width: 740px;height: 400px;background-color: white}
+        .dingzhiwb{font-family: "微软雅黑";font-size: 14px;margin-left:25px;color: #a9a9a9;float: left;width: 82px;height:40px;display: inline-block}
+        .MSG{padding: 8px;font-size: 12px;color: #afafaf}
+        .mgs{width: 471px;margin-left: 7px;}
+        .btn{width: 100px;height: 40px;background-color: #efefef;font-family: '微软雅黑';border: none;font-size: 14px;color:#666666 ;margin-left: 140px;margin-top: 36px}
+        .btn1{background-color: #efefef;color: #666666;margin-left: 8px}
+        .btn:hover{background: #ff4100;color:#fff;}
+        .close{background: url('images/close.png');width: 30px;height: 30px;float: right;margin-top: -25px;margin-right: 10px}
+        .close:hover{background: url("images/close2.png")}
+    </style>
+</head>
+<body>
+<div id="tc" style="z-index:9999;display:none;position: fixed;background :rgba(0, 0, 0, 0.5);width: 100%;height: 100%;top:0;left:0">
+    <div style="width:740px;margin:327px auto 0;">
+        <div class="woyaodztop">
+            <p style="font-family: '微软雅黑';font-size: 18px;padding-top: 15px;padding-left: 20px;display: block">我要定制</p>
+            <div class="close" style=""></div>
+        </div>
+        <div class="woyaodz">
+            <div style="margin-left: 35px;padding-top: 32px">
+                <p class="dingzhiwb">订制类型：
+                <p style="font-family: '微软雅黑';font-size: 16px">局部凹凸特种纸片名</p></p>
+                <div style="clear:both"></div>
+                <p class="dingzhiwb">订制说明：</p>
+                <div>
+                <textarea class="MSG" id="aa" cols=87 rows=6
+                          onfocus="javascript:if(this.value=='请输入您对定制设计的详细要求，以便我们为您设计出你所想要的最好的作品。')this.value='';
+                      ">请输入您对定制设计的详细要求，以便我们为您设计出你所想要的最好的作品。</textarea>
+                </div>
+                <div style="clear:both"></div>
+                <p class="dingzhiwb" style="margin-left:18px;line-height: 30px;"><span style="color: #ff4100">*</span> 联系方式：</p>
+                <input class="MSG mgs" type="text" value="请输入您常用的电话号码。" onfocus="javascript:if(this.value=='请输入您常用的电话号码。')this.value='';">
+                <div style="clear:both"></div>
+            </div>
+            <button class="btn">我要建议</button>
+            <button class="btn btn1" >取消</button>
+        </div>
+    </div>
+</div>
+    <div class="bg">
+        <div class="logo">
+            <img class="logotp" src="images/gdlogo.png" alt=""/>
+            <img class="logozt" src="images/gddz.png" alt=""/>
+        </div>
+        <div style="width: 671px;height: 65px;border: 5px solid #7f2000;margin: 95px auto 0">
+            <input class="shuruk" type="text" value="你想找什么？输入关键字试试。" onfocus="javascript:if(this.value=='你想找什么？输入关键字试试。')this.value='';">
+            <button style="background: url('images/search.png');border: none;width: 70px;height: 55px;float: right"></button>
+        </div>
+    </div>
+<div class="content">
+<div class="property">
+    <div class="hot">
+        <ul class="left">
+            <li><a href="javascript:void(0) ">产品分类:</a></li>
+            <li><a href="javascript:void(0)"><img src="../tp/images/buxian.png" height="18px" alt=""/></a></li>
+        </ul>
+        <div class="hangye-right">
+            <ul class="right">
+                <li><a href="javascript:void(0)">通用行业</a></li>
+                <li><a href="javascript:void(0) ">IT电脑</a></li>
+                <li><a href="javascript:void(0)">建筑装潢</a></li>
+                <li><a href="javascript:void(0)">批发零售</a></li>
+                <li><a href="javascript:void(0) ">教育科研</a></li>
+                <li><a href="javascript:void(0)">房产物业</a></li>
+                <li><a href="javascript:void(0)">花卉礼品</a></li>
+                <li><a href="javascript:void(0) ">机械制造</a></li>
+                <li><a href="javascript:void(0)">家居装饰</a></li>
+                <li><a href="javascript:void(0)">医疗卫生</a></li>
+                <li><a href="javascript:void(0)">电信科技</a></li>
+                <li><a href="javascript:void(0)">农业化工</a></li>
+                <li><a href="javascript:void(0) ">餐饮旅业</a></li>
+                <li><a href="javascript:void(0)">交通运输</a></li>
+                <li><a href="javascript:void(0)">水利环保</a></li>
+                <li><a href="javascript:void(0) ">美容装饰</a></li>
+                <li><a href="javascript:void(0)">金融保险</a></li>
+                <li><a href="javascript:void(0)">文化体育</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="clear"></div>
+    <div class="fenlei">
+    <ul class="left">
+        <li><a href="javascript:void(0) ">产品分类:</a></li>
+        <li><a href="javascript:void(0)"><img src="../tp/images/buxian.png" height="18px" alt=""/></a></li>
+    </ul>
+    <div class="hangye-right">
+        <ul class="right">
+            <li><a href="javascript:void(0)">烫金</a></li>
+            <li><a href="javascript:void(0) ">烫银</a></li>
+            <li><a href="javascript:void(0)">UV</a></li>
+        </ul>
+    </div>
+    </div>
+    <div class="clear"></div>
+    <div class="color">
+        <ul class="right">
+            <li><a href="javascript:void(0) ">热门颜色:</a></li>
+            <li><a href="javascript:void(0)"><img src="../tp/images/buxian.png" height="18px" alt=""/></a></li>
+            <li><a href="javascript:void(0)"><img src="../tp/images/color-1.png" height="18px" alt=""/></a></li>
+            <li><a href="javascript:void(0) "><img src="../tp/images/color-2.png" height="18px" alt=""/></a></li>
+            <li><a href="javascript:void(0)"><img src="../tp/images/color-3.png" height="18px" alt=""/></a></li>
+            <li><a href="javascript:void(0)"><img src="../tp/images/color-4.png" height="18px" alt=""/></a></li>
+            <li><a href="javascript:void(0) "><img src="../tp/images/color-5.png" height="18px" alt=""/></a></li>
+            <li><a href="javascript:void(0)"><img src="../tp/images/color-6.png" height="18px" alt=""/></a></li>
+            <li><a href="javascript:void(0)"><img src="../tp/images/color-7.png" height="18px" alt=""/></a></li>
+            <li><a href="javascript:void(0) "><img src="../tp/images/color-8.png" height="18px" alt=""/></a></li>
+            <li><a href="javascript:void(0)"><img src="../tp/images/color-9.png" height="18px" alt=""/></a></li>
+            <li><a href="javascript:void(0)"><img src="../tp/images/color-10.png" height="18px" alt=""/></a></li>
+            <li><a href="javascript:void(0)"><img src="../tp/images/color-11.png" height="18px" alt=""/></a></li>
+            <li><a href="javascript:void(0)"><img src="../tp/images/color-12.png" height="18px" alt=""/></a></li>
+            <li><a href="javascript:void(0) "><img src="../tp/images/color-13.png" height="18px" alt=""/></a></li>
+        </ul>
+    </div>
+
+</div>
+<div class="row">
+    <div class="col-md-3 ">
+    <div class=" zhanshi">
+        <img src="images/img.png" width="251" height="202" alt=""/>
+        <button class="wydz" type="button">我要定制</button>
+        <div class="name text-center">
+            局部凹凸特种纸名片
+        </div>
+    </div>
+    </div>
+    <div class="col-md-3 ">
+        <div class=" zhanshi">
+            <img src="images/img.png" width="251" height="202" alt=""/>
+            <button class="wydz" type="button">我要定制</button>
+            <div class="name text-center">
+                局部凹凸特种纸名片
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 ">
+        <div class=" zhanshi">
+            <img src="images/img.png" width="251" height="202" alt=""/>
+            <button class="wydz" type="button">我要定制</button>
+            <div class="name text-center">
+                局部凹凸特种纸名片
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 ">
+        <div class=" zhanshi">
+            <img src="images/img.png" width="251" height="202" alt=""/>
+            <button class="wydz" type="button">我要定制</button>
+            <div class="name text-center">
+                局部凹凸特种纸名片
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 ">
+        <div class=" zhanshi">
+            <img src="images/img.png" width="251" height="202" alt=""/>
+            <button class="wydz" type="button">我要定制</button>
+            <div class="name text-center">
+                局部凹凸特种纸名片
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 ">
+        <div class=" zhanshi">
+            <img src="images/img.png" width="251" height="202" alt=""/>
+            <button class="wydz" type="button">我要定制</button>
+            <div class="name text-center">
+                局部凹凸特种纸名片
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 ">
+        <div class=" zhanshi">
+            <img src="images/img.png" width="251" height="202" alt=""/>
+            <button class="wydz" type="button">我要定制</button>
+            <div class="name text-center">
+                局部凹凸特种纸名片
+            </div>
+        </div>
+    </div><div class="col-md-3 ">
+    <div class=" zhanshi">
+        <img src="images/img.png" width="251" height="202" alt=""/>
+        <button class="wydz" type="button">我要定制</button>
+        <div class="name text-center">
+            局部凹凸特种纸名片
+        </div>
+    </div>
+</div>
+    <div class="col-md-3 ">
+        <div class=" zhanshi">
+            <img src="images/img.png" width="251" height="202" alt=""/>
+            <button class="wydz" type="button">我要定制</button>
+            <div class="name text-center">
+                局部凹凸特种纸名片
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class=" zhanshi">
+            <img src="images/img.png" width="251" height="202" alt=""/>
+            <button class="wydz" type="button">我要定制</button>
+            <div class="name text-center">
+                局部凹凸特种纸名片
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 ">
+        <div class=" zhanshi">
+            <img src="images/img.png" width="251" height="202" alt=""/>
+            <button class="wydz" type="button">我要定制</button>
+            <div class="name text-center">
+                局部凹凸特种纸名片
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class=" zhanshi">
+            <img src="images/img.png" width="251" height="202" alt=""/>
+            <button class="wydz" type="button">我要定制</button>
+            <div class="name text-center">
+                局部凹凸特种纸名片
+            </div>
+        </div>
+    </div>
+
+  </div>
+</div>
+</body>
+<script src="../lib/jquery-1.9.1/jquery-1.9.1.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="../bower_components/bootstrap/dist/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript" src="../common/js/init.js"></script>
+<script type="text/javascript" src="js/gaoduandinzhi.js"></script>
+</html>

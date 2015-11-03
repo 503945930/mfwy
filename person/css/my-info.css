@@ -1,0 +1,48 @@
+
+html,body{background:#f5f5f5;}
+.info{width:1000px;height:840px;float:left;padding:20px;color:#666;font-size: 16px;display: none;}
+h1{font-size: 26px;line-height: 60px;color:#666;}
+
+.info .my-info{width:1020px;margin-left: -20px;height:140px;background:#fff;padding-left:50px;line-height: 45px;font-weight: 600;  }
+.info .my-info .name,.num,.able{color:#868686;}
+.info .change{width:1020px;height:675px;margin-left:-20px;margin-top:15px;background:#fff;padding-top:42px;}
+.info .change p{float:left;display: inline-block;width:95px;margin-left: 35px;text-align: right;height:33px;line-height: 33px;}
+.info .change .input-name{width: 340px;border:1px solid #ccc;height:33px;padding-left:10px;}
+.info .change .clear{margin-top:22px;}
+.info .change .input-sex{line-height: 33px;margin-top:10px;}
+.info .change .input-qq{width: 340px;border:1px solid #ccc;height:33px;padding-left:10px;}
+.info .change select{height:33px;line-height: 33px;}
+.info .change .jtdz{width: 340px;border:1px solid #ccc;height:33px;padding-left:10px;margin-left:130px;margin-top:22px;}
+.info .change .input-zip{width: 340px;border:1px solid #ccc;height:33px;padding-left:10px;}
+.info .change .save{width: 215px;display: inline-block;color:#fff;background:#e23537;font-size: 20px;font-weight: 700;margin-left: 130px;
+    height:45px;border: none;margin-top: 40px;}
+
+
+
+
+.address{width:1000px;height:840px;float:left;padding:20px;color:#666;font-size: 16px;/*display: none;*/}
+.address .shdz{width:1020px;margin-left: -20px;height:264px;background:#fff;padding:23px 48px;font-size: 12px;}
+.address .shdz .frist{width:375px;height:218px;border:1px solid #ccc;padding:18px;position: relative;}
+.address .shdz .frist h2{font-size:20px;font-weight:600;margin-bottom:10px;}
+.address .shdz .frist .left{width:65px;display:block;float:left;text-align: right;line-height: 25px;}
+.address .shdz .frist .right{float: left;line-height: 25px;}
+.address .bj{position: absolute;bottom:13px;right:25px;}
+.address .close{display: block;width:30px;height:30px;position: absolute;top:10px;right:10px;background:url("../images/close.png") no-repeat center;}
+.address .close:hover{background:url("../images/close2.png") no-repeat center;}
+.address .bjdz{width:1020px;height:515px;background: #fff;margin-left: -20px;padding-left: 128px;padding-top:50px;}
+.address .bjdz .left{width: 120px;line-height: 33px;}
+.address .bjdz input{border:1px solid #ccc;display: inline-block;width:336px;height:33px;line-height: 33px;padding: 10px;}
+.address .bjdz  td p{display: inline-block;width:120px;height:33px;line-height: 33px;text-align: right;color:#666;font-weight: 600;}
+.address .bjdz tr{display: block;margin-bottom: 15px;}
+.address .bjdz .mrdz{width:15px;height:15px;margin-top:10px;}
+.address .bjdz .right button{display: inline-block;width: 100px; height:40px;background:#f5f5f5;border:none;margin-left:15px;font-weight: 600;}
+.address .bjdz .right button:hover{background:#fe4101;color:#fff;}
+
+
+
+
+
+
+
+
+
