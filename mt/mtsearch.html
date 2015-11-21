@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>搜索展示页</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../bower_components/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="../common/css/common.css" />
+
+    <!--[if lt IE 9]>
+    <script src="../lib/html5shiv/html5shiv.js"></script>
+    <script src="../lib/respond-1.4.2/respond.js"></script>
+
+    <![endif]-->
+    <style>
+        *{
+            font-family: 微软雅黑;
+            margin: 0;
+            padding: 0;
+        }
+        .ad{
+            width: 100%;
+            height: 45px;
+            background-color: rgb(248,248,248);
+            margin-bottom: 0;
+        }
+        .ad p{
+            font-size: 16px;
+            line-height: 45px;
+            color: rgb(139,137,138);
+            margin-left: 85px;
+        }
+        .choose{
+            width: 1180px;
+            height: 203px;
+            margin: auto;
+            background-color: #FFFFFF;
+            border: 1px solid rgb(238,238,238);
+        }
+        .first{
+            width: 100%;
+            height: 50px;
+            border-bottom: 2px solid rgb(0,167,61);
+        }
+        .first li{
+            width: 125px;
+            height: 50px;
+            text-align: center;
+            float: left;
+        }
+        .first li a{
+            width: 125px;
+            height: 50px;
+            text-align: center;
+            line-height: 50px;
+            font-size: 20px;
+        }
+        .active{
+            background-color: rgb(0,167,61);
+        }
+       .first .active a{
+            color: #fff;
+        }
+        .first li:hover{
+            background-color: rgb(0,167,61);
+        }
+        .first li a:hover{
+            color: #fff;
+        }
+        .geshi{
+            width: 1148px;
+            height: 50px;
+            margin: auto;
+            border-bottom: 1px dashed rgb(235,235,235);
+        }
+        .format{
+            width: 60px;
+            height: 50px;
+            line-height: 50px;
+            font-size: 12px;
+            color: #000;
+            float: left;
+        }
+        .kinds{
+            width: 750px;
+            height: 50px;
+            float: left;
+            position: relative;
+            display: block;
+        }
+        .kinds li{
+            float: left;
+            width: 40px;
+            height: 20px;
+            margin-top: 15px;
+            text-align: center;
+            margin-left: 5px;
+        }
+        .kinds li a{
+            float: left;
+            width: 40px;
+            height: 20px;
+            text-align: center;
+        }
+        .current {
+            -moz-border-radius: 15px;
+            -webkit-border-radius: 15px;
+            border-radius: 15px;
+            background-color: #00a73d;
+            height: 20px;
+        }
+        .current a{
+            color: #fff;
+        }
+        .color{
+            width: 1148px;
+            height: 50px;
+            margin: auto;
+            border-bottom: 1px dashed rgb(235,235,235);
+        }
+        .color li{
+            -moz-border-radius: 15px;
+            -webkit-border-radius: 15px;
+            border-radius: 15px;
+            width: 40px;
+            height: 20px;
+            margin-top: 15px;
+            text-align: center;
+            margin-left: 5px;
+        }
+        .red{
+            background-color: #fe4000;
+        }
+        .orange{
+            background-color:#fea525 ;
+        }
+        .yellow{
+            background-color: #ede63d;
+        }
+        .green{
+            background-color: #2dbf52;
+        }
+        .light{
+            background-color: #3ac2ce;
+        }
+        .blue{
+            background-color: #3574e6;
+        }
+        .purple{
+            background-color: #cc62c6;
+        }
+        .pink{
+            background-color: #ff8db8;
+        }
+        .white{
+            background-color: #fff;
+            border: 1px solid #e6e6e6;
+        }
+        .dark{
+            background-color: #e6e6e6;
+        }
+        .black{
+            background-color: #000;
+        }
+        .brown{
+            background-color: #7b4612;
+        }
+        .dx{
+            width: 1148px;
+            height: 50px;
+            margin: auto;
+            position: relative;
+            display: block;
+        }
+        .input{
+            width: 420px;
+            height: 20px;
+            margin-top: 15px;
+            float: left;
+            margin-left: 5px;
+        }
+        .input input{
+            width: 75px;
+            height: 20px;
+            border: 1px solid #999999;
+            font-size: 12px;
+            line-height: 20px;
+            padding-left: 3px;
+        }
+        .course{
+            width: 48px;
+            height: 22px;
+            border: none;
+            background-color:#00a73d ;
+            color: #fff;
+            margin-left: 5px;
+        }
+        .filter{
+            width: 1180px;
+            height: 45px;
+            margin: auto;
+            background-color: #FFFFFF;
+            border: 1px solid rgb(238,238,238);
+            position: relative;
+            display: block;
+            margin-top: 20px;
+        }
+        .src{
+            width: 90px;
+            height: 43px;
+            float: left;
+            line-height: 45px;
+            font-size: 14px;
+            text-align: center;
+        }
+        #filcurrent{
+            background-color:#00a73d ;
+        }
+        #filcurrent a{
+            color:#fff;
+        }
+        .next{
+            width: 90px;
+            height: 43px;
+            float: right;
+            line-height: 45px;
+            font-size: 14px;
+            text-align: center;
+        }
+        .neirong{
+            width: 1180px;
+            height: 680px;
+            margin: auto;
+            margin-top: 20px;
+        }
+        .haibao{
+            width: 1180px;
+            height: 320px;
+        }
+        .imgmf{
+
+            width: 226px;
+            height: 270px;
+            float: left;
+            border: 1px solid #D5D5D5;
+        }
+        .imgmf p{
+            width: 226px;
+            height: 65px;
+            margin-top: 5px;
+            color: rgb(142,142,142);
+            font-size: 14px;
+            margin-left: 10px;
+            line-height: 2;
+        }
+        .imgyc{
+            width: 226px;
+            height: 320px;
+            border: 1px solid #D5D5D5;
+            float: left;
+        }
+        .imgyc p{
+            width: 226px;
+            height: 65px;
+            margin-top: 5px;
+            color: rgb(142,142,142);
+            font-size: 14px;
+            padding-left: 10px;
+            line-height: 2;
+        }
+        .person{
+            padding-top: 5px;
+            padding-left: 10px;
+            width: 224px;
+            height: 48px;
+            background-color: rgb(244,244,244);
+            border-top:1px solid #D5D5D5;
+            border-bottom:1px solid #D5D5D5 ;
+        }
+        .page{
+            width: 435px;
+            height: 43px;
+            float: right;
+            margin-top: 320px;
+        }
+        .page button{
+            width: 43px;
+            height: 43px;
+            border:1px solid #d2d2d2 ;
+            background-color: #fff;
+            color: #ababab;
+        }
+        .page a{
+            color: #ababab;
+        }
+       .page .pagecurrent{
+            background-color: #00a73d;
+           color: #fff;
+        }
+    </style>
+    <script>
+    </script>
+</head>
+<body>
+<!--header start-->
+<div class="header">
+    <div class="include" data-include="top-mt"></div>
+    <div class="include" data-include="logo-mt"></div>
+</div>
+<!--header end-->
+
+<!--content start-->
+<div class="content" style="width:100%;height:1590px;background-color: rgb(248,248,250)">
+    <div class="ad">
+        <p>首页 > <span style="color: rgb(0,167,57)">中秋节</span></p>
+    </div>
+    <div class="choose">
+        <ul class="first">
+                <li class="active" id="all">
+                    <a href="#">所有图片</a>
+                </li>
+            <li id="free">
+                <a href="#">免费图</a>
+            </li>
+                <li id="yc">
+                    <a href="#">原创出售作品</a>
+                </li>
+        </ul>
+        <div class="geshi">
+            <div class="format">文件格式：</div>
+            <ul class="kinds">
+                <li class="current" id="doccurrent" onclick="change()"><a href="#">不限</a></li>
+                <li><a href="#">JPG</a></li>
+                <li><a href="#">PSD</a></li>
+                <li><a href="#">CDR</a></li>
+                <li><a href="#">AI</a></li>
+                <li><a href="#">EPS</a></li>
+                <li><a href="#">TIF</a></li>
+                <li><a href="#">PDF</a></li>
+                <li><a href="#">ABR</a></li>
+                <li><a href="#">WMF</a></li>
+                <li><a href="#">MAX</a></li>
+                <li><a href="#">MOV</a></li>
+                <li><a href="#">AVI</a></li>
+                <li><a href="#">DWG</a></li>
+                <li><a href="#">PPT</a></li>
+            </ul>
+        </div>
+        <div class="color">
+            <div class="format">热门颜色：</div>
+            <ul class="kinds">
+                <li class="current" id="colorcurrent"><a href="#">不限</a></li>
+                <li class="cai"><a href="#"></a></li>
+                <li class="red"><a href="#"></a></li>
+                <li class="orange"><a href="#"></a></li>
+                <li class="yellow"><a href="#"></a></li>
+                <li class="green"><a href="#"></a></li>
+                <li class="light"><a href="#"></a></li>
+                <li class="blue"><a href="#"></a></li>
+                <li class="purple"><a href="#"></a></li>
+                <li class="pink"><a href="#"></a></li>
+                <li class="white"><a href="#"></a></li>
+                <li class="dark"><a href="#"></a></li>
+                <li class="black"><a href="#"></a></li>
+                <li class="brown"><a href="#"></a></li>
+            </ul>
+        </div>
+        <div class="dx">
+            <div class="format">文件大小：</div>
+            <div class="input">
+                <input placeholder="宽"> X
+                <input placeholder="高"> 以上
+                <select id="xiala" class="kuang" style="width:100px">
+                    <option>像素(PX)</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
+                <button class="course">确定</button>
+            </div>
+        </div>
+    </div>
+    <div class="filter">
+            <div class="default src" id="filcurrent">
+                <a href="#">默认</a>
+            </div>
+            <div class="time src">
+                <a href="#">上传时间</a>
+            </div>
+            <div class="downnum src">
+                <a href="#">下载数量</a>
+            </div>
+            <div class="scnum src">
+                <a href="#">收藏数量</a>
+            </div>
+            <div class="price src">
+                <a href="#">图片价格</a>
+            </div>
+            <div class="next">
+                <a href="#">下一页</a>
+            </div>
+    </div>
+    <div class="neirong">
+        <div class="haibao">
+            <div class="imgmf" style="margin-right: 12px">
+                <img src="images/zq.png">
+                <p>
+                    <span style="color:red;">中秋节</span>首页海报<span style="color: rgb(0,156,61)">.PSD</span><br>
+                    收藏：8868&nbsp;&nbsp;&nbsp;&nbsp;下载：18868
+                </p>
+            </div>
+            <div class="imgyc" style="margin-right: 12px">
+                <img src="images/zq.png">
+                <p>
+                    <span style="color:red;">中秋节</span>首页海报<span style="color: rgb(0,156,61)">.PSD</span><br>
+                    收藏：8868&nbsp;&nbsp;&nbsp;&nbsp;购买：18868
+                </p>
+                <div class="person">
+                    <a href="#"><img src="images/face.png"><span style="font-size: 12px"> Susan </span><img src="images/vip.png"></a>
+                </div>
+            </div>
+            <div class="imgyc" style="margin-right: 12px">
+                <img src="images/zq.png">
+                <p>
+                    <span style="color:red;">中秋节</span>首页海报<span style="color: rgb(0,156,61)">.PSD</span><br>
+                    收藏：8868&nbsp;&nbsp;&nbsp;&nbsp;购买：18868
+                </p>
+                <div class="person">
+                    <a href="#"><img src="images/face.png"><span style="font-size: 12px"> Susan </span><img src="images/vip.png"></a>
+                </div>
+            </div>
+            <div class="imgmf" style="margin-right: 12px">
+                <img src="images/zq.png">
+                <p>
+                    <span style="color:red;">中秋节</span>首页海报<span style="color: rgb(0,156,61)">.PSD</span><br>
+                    收藏：8868&nbsp;&nbsp;&nbsp;&nbsp;下载：18868
+                </p>
+            </div>
+            <div class="imgmf" style="float: right">
+                <img src="images/zq.png">
+                <p>
+                    <span style="color:red;">中秋节</span>首页海报<span style="color: rgb(0,156,61)">.PSD</span><br>
+                    收藏：8868&nbsp;&nbsp;&nbsp;&nbsp;下载：18868
+                </p>
+            </div>
+        </div>
+        <div class="page">
+            <button href="#"> < </button>
+            <button href="#" class="pagecurrent">1</button>
+            <button href="#">2</button>
+            <button href="#">3</button>
+            <button href="#">4</button>
+            <button href="#">5</button>
+            <button href="#">6</button>
+             <a href="#">...</a>
+            <button href="#">105</button>
+            <button href="#"> > </button>
+        </div>
+    </div>
+
+</div>
+
+<!--content end-->
+<!--footer start-->
+<div class="footer">
+    <div class="include" data-include='footer-quanguo'></div>
+    <div class="include" data-include='footer-nav'></div>
+    <div class="include" data-include='footer-cr'></div>
+</div>
+<!--footer end-->
+</body>
+<script src="../lib/jquery-1.9.1/jquery-1.9.1.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="../bower_components/bootstrap/dist/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="../common/js/init.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+    $(function() {
+        var includes = $('.include');
+        $.each(includes, function() {
+            var file = '../common/public/' + $(this).data('include') + '.tpl.html';
+            $(this).load(file);
+        });
+    });
+</script>
+
+</html>

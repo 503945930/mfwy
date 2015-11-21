@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>收费素材展示</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../bower_components/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="../common/css/common.css" />
+
+    <!--[if lt IE 9]>
+    <script src="../lib/html5shiv/html5shiv.js"></script>
+    <script src="../lib/respond-1.4.2/respond.js"></script>
+    <![endif]-->
+</head>
+<style>
+    *{
+        font-family: 微软雅黑;
+        margin: 0;
+        padding: 0;
+    }
+    .ad{
+        width: 100%;
+        height: 45px;
+        background-color: rgb(248,248,248);
+        border: 1px solid rgb(238,238,238);
+    }
+    .ad p{
+        font-size: 16px;
+        line-height: 45px;
+        color: rgb(139,137,138);
+        margin-left: 85px;
+    }
+    .neirong{
+        width: 1180px;
+        height: 800px;
+        margin: auto;
+    }
+    .left{
+        width: 714px;
+        height: 820px;
+        float: left;
+    }
+    .left p{
+        color: rgb(142,142,142);
+        width: 714px;
+        height: 60px;
+        text-align: center;
+        line-height: 60px;
+        float: left;
+        font-size: 25px
+    }
+    .pic{
+        margin-top: 60px;
+        width: 714px;
+        height: 717px;
+    }
+    .left a{
+        color: rgb(142,142,142);
+    }
+    .right{
+        margin-top: 60px;
+        width: 440px;
+        height: 760px;
+        float: right;
+    }
+    .btn{
+        margin: 0;
+        padding: 0;
+        width: 195px;
+        height: 60px;
+    }
+    .load{
+        color: rgb(96,96,96);
+        font-size: 16px;
+        width: 100%;
+        height: 50px;
+        border-bottom: 1px solid rgb(227,227,227);
+        line-height: 50px;
+    }
+    .des{
+        color: rgb(96,96,96);
+        font-size: 16px;
+        width: 100%;
+        height: 270px;
+        line-height:2.5;
+        border-bottom: 1px solid rgb(227,227,227);
+    }
+    .share{
+        margin-top: 15px;
+    }
+    .share a{
+        margin-right: 10px;
+    }
+    .bottom-neirong{
+        width: 1180px;
+        margin: auto;
+    }
+    .xian{
+        width: 100%;
+        height: 45px;
+        margin-top: 80px;
+    }
+    .xian p{
+        float: left;
+        margin-left: 20px;
+        line-height: 45px;
+        font-size: 30px;
+        color: rgb(142,142,142);
+    }
+    .hx{
+        width:450px;
+        height:1px;
+        padding:0px;
+        background-color:#D5D5D5;
+        overflow:hidden;
+        margin-top: 22px
+    }
+    .clear{
+        clear: both;
+    }
+    .haibao{
+        width: 960px;
+        height: 320px;
+        margin:auto;
+        margin-top: 20px;
+    }
+    .imgmf{
+        margin-right: 18px;
+        width: 226px;
+        height: 270px;
+        float: left;
+        border: 1px solid #D5D5D5;
+    }
+    .imgmf p{
+        width: 226px;
+        height: 65px;
+        margin-top: 5px;
+        color: rgb(142,142,142);
+        font-size: 14px;
+        margin-left: 10px;
+        line-height: 2;
+    }
+    .imgyc{
+        width: 226px;
+        height: 320px;
+        border: 1px solid #D5D5D5;
+        float: left;
+    }
+    .imgyc p{
+        width: 226px;
+        height: 65px;
+        margin-top: 5px;
+        color: rgb(142,142,142);
+        font-size: 14px;
+        padding-left: 10px;
+        line-height: 2;
+    }
+    .person{
+        padding-top: 5px;
+        padding-left: 10px;
+        width: 224px;
+        height: 48px;
+        background-color: rgb(244,244,244);
+        border-top:1px solid #D5D5D5;
+        border-bottom:1px solid #D5D5D5 ;
+    }
+    .hx2{
+        width:510px;
+        height:1px;
+        padding:0px;
+        background-color:#D5D5D5;
+        overflow:hidden;
+        margin-top: 22px
+    }
+    .tuijian{
+        width: 980px;
+        height: 90px;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .tuijian a{
+        text-decoration: none;
+        color:#e7e7e7;
+        font-size: 18px;
+        line-height: 2;
+        margin-right: 15px;
+    }
+    .price{
+        width: 700px;
+        height: 50px;
+        border-bottom: 1px solid rgb(229,229,299);
+        line-height:50px;
+        color: rgb(96,96,96);
+        font-size: 16px;
+    }
+    .price span{
+        color: red;
+        font-size: 25px;
+    }
+    .price a{
+        text-decoration: none;
+        color: rgb(111,186,44);
+    }
+</style>
+<body>
+<!--header start-->
+<div class="header">
+    <div class="include" data-include="top-mt"></div>
+    <div class="include" data-include="logo-mt"></div>
+</div>
+<!--header end-->
+
+<!--content start-->
+<div class="content" style="width:100%;height:1590px;">
+    <div class="ad">
+        <p>首页 > 中秋节 > <span style="color: rgb(0,167,57)">中秋节首页海报.PSD</span></p>
+    </div>
+    <div class="neirong">
+        <div class="left">
+            <p>中秋节首页海报.PSD</p>
+            <div class="pic"><img src="images/qx.png"></div>
+            <a href="#">时尚创意中秋节节日元素素材免费下载</a>
+            <a href="#">创意剪纸</a>
+            <a href="#">灯笼剪纸</a>
+            <a href="#">荷花蜻蜓</a>
+            <a href="#">3D剪纸</a>
+            <a href="#">创意剪纸</a>
+            <a href="#">时尚剪纸</a>
+        </div>
+        <div class="right">
+            <input type="image" src="images/down.png" id="mfxz" class="btn" alt="btn">
+            <input type="image" src="images/sc.png" id="scwj" class="btn" alt="btn"><br>
+            <p class="load">下载：8868&nbsp;&nbsp;&nbsp;&nbsp;收藏：55620</p>
+            <div class="price">
+                价格：<span>￥50.00</span> &nbsp;&nbsp;<a href="#">[充值]</a>
+            </div>
+            <p class="des">
+                <span style="font-size: 25px">详细参数</span><br>
+                编号：18685651<br>
+                格式：PSD&nbsp;&nbsp;&nbsp;&nbsp;模式：CMYK<br>
+                大小：2.42MB<br>
+                上传时间：2015-11-1 19:27:27<br>
+                上传设计师：<a href="#"><img src="images/face.png"><span style="font-size: 12px"> Susan </span><img src="images/vip.png"></a><span style="color: rgb(0,168,58)">点击进入它的主页</span>
+            </p>
+            <div class="share">
+                <a href="#"><img src="images/wx.png"></a>
+                <a href="#"><img src="images/qq.png"></a>
+                <a href="#"><img src="images/kj.png"></a>
+                <a href="#"><img src="images/sina.png"></a>
+                <a href="#"><img src="images/plus.png"></a>
+            </div>
+
+        </div>
+    </div>
+    <div class="bottom-neirong">
+        <div class="xian">
+            <div class="hx" style="float: left"></div>
+            <p>您可能还需要这些</p>
+            <div class="hx" style="float: right"></div>
+        </div>
+        <div class="clear"></div>
+        <div class="haibao">
+            <div class="imgmf">
+                <img src="images/zq.png">
+                <p>
+                    <span style="color:red;">中秋节</span>首页海报<span style="color: rgb(0,156,61)">.PSD</span><br>
+                    收藏：8868&nbsp;&nbsp;&nbsp;&nbsp;下载：18868
+                </p>
+            </div>
+            <div class="imgyc" style="margin-right: 18px">
+                <img src="images/zq.png">
+                <p>
+                    <span style="color:red;">中秋节</span>首页海报<span style="color: rgb(0,156,61)">.PSD</span><br>
+                    收藏：8868&nbsp;&nbsp;&nbsp;&nbsp;购买：18868
+                </p>
+                <div class="person">
+                    <a href="#"><img src="images/face.png"><span style="font-size: 12px"> Susan </span><img src="images/vip.png"></a>
+                </div>
+            </div>
+            <div class="imgmf">
+                <img src="images/zq.png">
+                <p>
+                    <span style="color:red;">中秋节</span>首页海报<span style="color: rgb(0,156,61)">.PSD</span><br>
+                    收藏：8868&nbsp;&nbsp;&nbsp;&nbsp;下载：18868
+                </p>
+            </div>
+            <div class="imgyc">
+                <img src="images/zq.png">
+                <p>
+                    <span style="color:red;">中秋节</span>首页海报<span style="color: rgb(0,156,61)">.PSD</span><br>
+                    收藏：8868&nbsp;&nbsp;&nbsp;&nbsp;购买：18868
+                </p>
+                <div class="person">
+                    <a href="#"><img src="images/face.png"><span style="font-size: 12px"> Susan </span><img src="images/vip.png"></a>
+                </div>
+            </div>
+        </div>
+        <div class="xian">
+            <div class="hx2" style="float: left"></div>
+            <p>为您推荐</p>
+            <div class="hx2" style="float: right"></div>
+        </div>
+        <div class="tuijian">
+            <a href="#">创意画册图片</a>
+            <a href="#">矢量幻彩</a>
+            <a href="#">创意光环背景素材</a>
+            <a href="#">时尚数字标签</a>
+            <a href="#">创意标志</a>
+            <a href="#">喷墨时尚绚丽彩色</a>
+            <a href="#">矢量背景</a>
+            <a href="#">时尚创意插画</a>
+            <a href="#">矢量素材矢量</a>
+            <a href="#">创意数字折纸</a>
+            <a href="#">横幅背景矢量</a>
+            <a href="#">圆形标签</a>
+            <a href="#">创意数字设计</a>
+            <a href="#">素材信息时代</a>
+            <a href="#">创意设计矢量</a>
+            <a href="#">矢量彩色吊牌</a>
+            <a href="#">创意设计素材</a>
+            <a href="#">矢量立体箭头</a>
+            <a href="#">创意设计素材</a>
+            <a href="#">秋季自然创意设计</a>
+            <a href="#">矢量素材矢量</a>
+            <a href="#">几何方框创意设计</a>
+            <a href="#">抽象数字艺术星</a>
+        </div>
+    </div>
+</div>
+
+</div>
+<!--content end-->
+<!--footer start-->
+<div class="footer">
+    <div class="include" data-include='footer-quanguo'></div>
+    <div class="include" data-include='footer-nav'></div>
+    <div class="include" data-include='footer-cr'></div>
+</div>
+<!--footer end-->
+</body>
+<script src="../lib/jquery-1.9.1/jquery-1.9.1.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="../bower_components/bootstrap/dist/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="../common/js/init.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+    $(function() {
+        var includes = $('.include');
+        $.each(includes, function() {
+            var file = '../common/public/' + $(this).data('include') + '.tpl.html';
+            $(this).load(file);
+        });
+    });
+</script>
+
+</html>
