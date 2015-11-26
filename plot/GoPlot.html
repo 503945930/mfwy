@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>模板页面</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../bower_components/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="../common/css/common.css" />
+    <!--[if lt IE 9]>
+    <script src="../lib/html5shiv/html5shiv.js"></script>
+    <script src="../lib/respond-1.4.2/respond.js"></script>
+    <![endif]-->
+    <!--<script language="JavaScript">
+        t=setInterval(change,3000);
+        var array=new Array();
+        var index=0;
+        var array= new Array("/mt/images/haibao.png","/mt/images/bg.png","/mt/images/kj.png");
+        function change()
+        { var myimg=document.getElementById("imgs");
+            if(index==array.length-1)
+            { index=0; }else{ index++; }
+            myimg.src=array[index];
+        }
+        function stop(){
+            clearInterval(t);
+        }
+    </script>-->
+
+
+
+    <style>
+        *{
+            font-family: 微软雅黑;
+        }
+        .item{
+            width: 100%;
+            height: 380px;
+        }
+        .item img{
+            width: 100%;
+            height: 380px;
+        }
+        .flow{
+            width: 1180px;
+            height: 90px;
+            margin: auto;
+            margin-top: 20px;
+            border:1px solid #e9e9e9;
+        }
+        .file{
+            width: 1060px;
+            margin: auto;
+            height: 640px;
+            margin-top: 75px;
+
+        }
+        .choose{
+            width: 250px;
+            height: 36px;
+            float: left;
+            border: 1px solid #e9e9e9;
+            border-bottom: none;
+        }
+        .xzlx{
+            width: 110px;
+            height: 36px;
+            color: #fff;
+            font-size: 18px;
+            background-color: #02b7e6;
+            float: left;
+            text-align: center;
+            line-height: 37px;
+        }
+        .kind{
+            width: 135px;
+            height: 35px;
+            float: left;
+            border: none;
+            font-size: 16px;
+            color:#787878;
+            padding-left: 10px;
+        }
+        .add{
+            width: 1060px;
+            height: 520px;
+            border:1px solid #e9e9e9;
+        }
+        .clear{
+            clear: both;
+        }
+        .sub-add{
+            width: 1000px;
+            height: 440px;
+            margin:auto;
+            margin-top:40px;
+            border: 2px dashed #e9e9e9;
+            background-color: #fbfbfb;
+        }
+        .count{
+            margin: auto;
+            width: 1000px;
+            line-height: 40px;
+        }
+        .count span{
+            color: #02b7e6;
+        }
+        .btn{
+            width: 200px;
+            height: 50px;
+            margin-top:220px;
+            margin-left:400px;
+            background-color: #56bbf0;
+            color: #fff;
+            font-size: 23px;
+        }
+        .sub-add p{
+            width: 710px;
+            margin: auto;
+            margin-top: 40px;
+            color: #787878;
+        }
+        .sub-name{
+            width: 1060px;
+            height: 80px;
+            border: 1px solid #e9e9e9;
+            border-top: none;
+        }
+    </style>
+</head>
+
+<body>
+<div class="header">
+    <div class="include" data-include="top-black"></div>
+    <div class="include" data-include="logo-black"></div>
+    <div class="include" data-include="banner-four-black"></div>
+</div>
+
+<div class="content" style="width:100%;height:1300px;">
+    <div id="myCarousel" class="carousel slide">
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="item active">
+                <a href="#"><img src="/mt/images/haibao.png" alt="First slide"></a>
+            </div>
+            <div class="item">
+                <a href="#"><img src="/mt/images/bg.png" alt="Second slide"></a>
+            </div>
+            <div class="item">
+                <a href="#"><img src="/mt/images/haibao.png" alt="Third slide"></a>
+            </div>
+            <div class="item">
+                <a href="#"><img src="/mt/images/bg.png" alt="Fourth slide"></a>
+            </div>
+        </div>
+    </div>
+    <div class="flow">
+
+    </div>
+    <div class="file">
+        <div class="choose">
+            <div class="xzlx">
+                <p>选择类型</p>
+            </div>
+            <select class="kind">
+                <option>名片</option>
+                <option>纸张</option>
+            </select>
+        </div>
+        <div class="clear"></div>
+        <div class="add">
+            <div class="sub-add">
+                <button class="btn">添加文件</button>
+                <p>
+                    1.本平台印刷订单只接收制作完整的最终印刷文件。请自行将文字转曲线，转轮廓，文字出血。<br>
+                    2.上传文件需与印刷需求相符，文件格式仅限PSD、AI、CDR、PDF、JPEG格式以及由多个以上格式的文件打包而成的压缩文件。<br>
+                    3.若印刷文件未按规定制作，本平台有权不接受，敬请您在上传文件时注意，谢谢配合！
+                </p>
+            </div>
+            <p class="count">共添加<span>1</span>个文件。</p>
+        </div>
+        <div class="sub-name">
+            <div class="name"></div>
+        </div>
+    </div>
+</div>
+<div class="footer">
+    <div class="include" data-include='footer-quanguo'></div>
+    <div class="include" data-include='footer-nav'></div>
+    <div class="include" data-include='footer-cr'></div>
+</div>
+</body>
+<script src="../lib/jquery-1.9.1/jquery-1.9.1.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="../bower_components/bootstrap/dist/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+    $(function() {
+        var includes = $('.include');
+        $.each(includes, function() {
+            var file = '../common/public/' + $(this).data('include') + '.tpl.html';
+            $(this).load(file);
+        });
+    });
+
+    $('.carousel').carousel({
+        interval:2000
+    })
+</script>
+
+
+
+
+</html>
