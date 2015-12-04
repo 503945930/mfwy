@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>模板页面</title>
+    <title>去印刷吧</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="renderer" content="webkit">
     <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css" />
@@ -128,6 +128,59 @@
             border: 1px solid #e9e9e9;
             border-top: none;
         }
+        .baojia{
+            width:270px;
+            height:350px;
+            background-color: rgba(0,0,0,.6);
+            position: absolute;
+            right: 20px;
+            top: 206px;
+        }
+        .btn1{
+            width: 250px;
+            height: 50px;
+            margin-left: 10px;
+            border:none;
+            background-color: #02b7e6;
+            color: #fff;
+            font-size: 23px;
+        }
+        .name{
+            width: 180px;
+            height: 40px;
+            line-height: 40px;
+            margin-top: 20px;
+            margin-left: 20px;
+            float: left;
+        }
+        .btn2{
+            width: 90px;
+            height: 30px;
+            font-size: 16px;
+            -moz-border-radius:3px;
+            -webkit-border-radius:3px;
+            border-radius:3px;
+            margin-top: 25px;
+        }
+        .plotbj{
+            width: 100%;
+            height: 80px;
+            background-color: #02b7e6;
+        }
+        .plotbj ul{
+            width: 800px;
+            height: 40px;
+            margin: auto;
+
+        }
+        .plotbj ul li{
+            float: left;
+            width: 122px;
+            height: 40px;
+            line-height: 40px;
+            font-size: 20px;
+            margin-top: 20px;
+        }
     </style>
 </head>
 
@@ -139,7 +192,8 @@
 </div>
 
 <div class="content" style="width:100%;height:1300px;">
-    <div id="myCarousel" class="carousel slide">
+    <div class="fudong">
+        <div id="myCarousel" class="carousel slide">
         <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
             <li data-target="#myCarousel" data-slide-to="1"></li>
@@ -159,6 +213,12 @@
             <div class="item">
                 <a href="#"><img src="/mt/images/bg.png" alt="Fourth slide"></a>
             </div>
+        </div>
+    </div>
+        <div  class="baojia">
+            <img src="images">
+            <p style="text-align: center;color: #FFFFFF;font-size: 18px;margin-bottom: 20px;">即时掌握各类印刷成本，<br>享受超低价格</p>
+            <button class="btn1">立即报价</button>
         </div>
     </div>
     <div class="flow">
@@ -187,12 +247,23 @@
             <p class="count">共添加<span>1</span>个文件。</p>
         </div>
         <div class="sub-name">
-            <div class="name"></div>
+            <div class="name"> 公司名片合集.ai <input type="button" value="删除" style="background-color: #FFFFFF;color: #02b7e6"/> </div>
+            <div style="float: right;margin-right: 20px">
+                <input class="btn2" type="button" value="继续添加" style="background-color: #fff;border:1px solid #e9e9e9;margin-right: 10px">
+                <input class="btn2" type="button" value="下一步" style="background-color: #02b7e6;color: #fff;">
+            </div>
         </div>
     </div>
 </div>
 <div class="footer">
-    <div class="include" data-include='footer-quanguo'></div>
+    <div class="plotbj">
+        <ul>
+            <li><img src=""><a href="#">在线报价</a></li>
+            <li><img src=""><a href="#">品质印刷</a></li>
+            <li><img src=""><a href="#">快速发货</a></li>
+            <li><img src=""><a href="#">无忧售后</a></li>
+        </ul>
+    </div>
     <div class="include" data-include='footer-nav'></div>
     <div class="include" data-include='footer-cr'></div>
 </div>
